@@ -1,0 +1,36 @@
+# ビルド出力
+build/
+*.pdf
+*.docx
+*.html
+
+# Quarto生成ファイル
+.quarto/
+_book/
+
+# 一時ファイル
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
+
+# IDE設定
+.vscode/
+.idea/
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# バックアップファイル
+*.bak
+*~
+*.swp
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

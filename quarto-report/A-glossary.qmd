@@ -1,0 +1,239 @@
+---
+title: "用語集"
+---
+
+## A
+
+**AHDS (Asian Health Data Space)**
+: アジア健康データ空間。EHDSモデルをアジア太平洋地域に適応させた構想。
+
+**API (Application Programming Interface)**
+: アプリケーション・プログラミング・インターフェース。異なるソフトウェア間でデータや機能を共有するための仕様。
+
+**ATC (Anatomical Therapeutic Chemical Classification)**
+: 解剖治療化学分類。WHOが開発した医薬品分類システム。
+
+## C
+
+**CDO (Chief Data Officer)**
+: 最高データ責任者。組織のデータ戦略と管理を統括する役職。
+
+**CAGR (Compound Annual Growth Rate)**
+: 年平均成長率。複数年にわたる成長率の年平均値。
+
+## D
+
+**DPIA (Data Protection Impact Assessment)**
+: データ保護影響評価。GDPRで義務付けられている個人データ処理のリスク評価。
+
+**DPO (Data Protection Officer)**
+: データ保護責任者。GDPR遵守を監督する専門職。
+
+## E
+
+**EEHRxF (European EHR Exchange Format)**
+: 欧州電子健康記録交換フォーマット。EHDSで採用される標準データ形式。
+
+**EHDS (European Health Data Space)**
+: 欧州健康データ空間。EU全体での医療データの相互運用性と二次利用を実現する包括的な枠組み。
+
+**eIDAS (electronic IDentification, Authentication and trust Services)**
+: 欧州電子識別・認証・信頼サービス規則。EU域内での電子認証の相互認証を可能にする制度。
+
+**EMR (Electronic Medical Record)**
+: 電子医療記録。医療機関内で使用される電子化された患者記録。
+
+**EHR (Electronic Health Record)**
+: 電子健康記録。複数の医療機関で共有可能な包括的な電子患者記録。
+
+## F
+
+**FAIR (Findable, Accessible, Interoperable, Reusable)**
+: 研究データ管理の原則。データが発見可能、アクセス可能、相互運用可能、再利用可能であることを目指す。
+
+**FHIR (Fast Healthcare Interoperability Resources)**
+: HL7が開発した医療情報交換標準。RESTful APIを基盤とし、JSONやXML形式でデータ交換を行う。
+
+## G
+
+**GDPR (General Data Protection Regulation)**
+: EU一般データ保護規則。2018年5月に施行されたEUの個人データ保護法。
+
+**GDP (Gross Domestic Product)**
+: 国内総生産。一国の経済規模を表す指標。
+
+## H
+
+**HIE (Health Information Exchange)**
+: 医療情報交換。医療機関間での患者情報の電子的な共有システム。
+
+**HL7 (Health Level Seven International)**
+: 医療情報システム間のデータ交換標準を策定する国際的な非営利組織。
+
+**HSM (Hardware Security Module)**
+: ハードウェアセキュリティモジュール。暗号鍵の生成・保管・管理を行う専用ハードウェア。
+
+## I
+
+**ICD (International Classification of Diseases)**
+: 国際疾病分類。WHOが策定する疾病・死因の国際統計分類。
+
+**IoT (Internet of Things)**
+: モノのインターネット。あらゆる物がインターネットに接続される概念。
+
+**IPS (International Patient Summary)**
+: 国際患者サマリー。患者の重要な医療情報をまとめた標準化された文書。
+
+**IRR (Internal Rate of Return)**
+: 内部収益率。投資プロジェクトの収益性を評価する指標。
+
+## J
+
+**JSON (JavaScript Object Notation)**
+: データ交換形式の一つ。軽量で人間にも読みやすい形式。
+
+**JP Core**
+: 日本版FHIR実装ガイド。日本の医療制度に特化したFHIRプロファイル。
+
+## K
+
+**KMS (Key Management Service)**
+: 鍵管理サービス。暗号鍵のライフサイクル管理を行うクラウドサービス。
+
+## L
+
+**LOINC (Logical Observation Identifiers Names and Codes)**
+: 臨床検査項目の標準コード体系。世界的に使用されている。
+
+## M
+
+**MFA (Multi-Factor Authentication)**
+: 多要素認証。複数の認証要素を組み合わせたセキュリティ強化手法。
+
+**MVP (Minimum Viable Product)**
+: 実用最小限の製品。最小限の機能で市場投入し、フィードバックを得る開発手法。
+
+**MyHealth@EU**
+: EHDSの一次利用（患者ケア）システム。EU市民が他のEU加盟国で医療を受ける際の情報共有を支援。
+
+## N
+
+**NPV (Net Present Value)**
+: 正味現在価値。将来のキャッシュフローを現在価値に割り引いた投資評価指標。
+
+## O
+
+**OAuth (Open Authorization)**
+: 認可のためのオープン標準。第三者アプリケーションがユーザーの代理でリソースにアクセスする仕組み。
+
+**OpenID Connect**
+: OAuth 2.0をベースとした認証プロトコル。シングルサインオン(SSO)を実現。
+
+## P
+
+**PETs (Privacy Enhancing Technologies)**
+: プライバシー強化技術。データの有用性を保ちながらプライバシーを保護する技術群。
+
+**PHR (Personal Health Record)**
+: 個人健康記録。個人が自身の健康情報を管理するシステム。
+
+**PMSI (Programme de médicalisation des systèmes d'information)**
+: フランスの病院活動情報プログラム。医療活動のコード化・分析システム。
+
+**PPP (Public-Private Partnership)**
+: 官民パートナーシップ。公的部門と民間部門が連携してプロジェクトを実施する手法。
+
+## R
+
+**REST (Representational State Transfer)**
+: WebサービスのアーキテクチャスタイルWebAPIの設計原則。
+
+**ROI (Return on Investment)**
+: 投資利益率。投資に対する利益の割合を示す指標。
+
+**RWE (Real World Evidence)**
+: リアルワールドエビデンス。実世界での医療データから得られる臨床的証拠。
+
+## S
+
+**SAML (Security Assertion Markup Language)**
+: セキュリティ・アサーション・マークアップ言語。認証情報を交換するためのXMLベースの標準。
+
+**SDGs (Sustainable Development Goals)**
+: 持続可能な開発目標。国連が2030年までに達成を目指す17の目標。
+
+**SNOMED CT (Systematized Nomenclature of Medicine Clinical Terms)**
+: 系統的医学用語命名法。世界最大の多言語対応臨床用語体系。
+
+**SNDS (Système National des Données de Santé)**
+: フランス国家医療データシステム。フランスの全国規模医療データベース。
+
+**SOC (Security Operations Center)**
+: セキュリティ運用センター。サイバーセキュリティの監視・分析・対応を行う組織。
+
+## T
+
+**TEE (Trusted Execution Environment)**
+: 信頼実行環境。セキュアな実行領域を提供するハードウェア・ソフトウェア技術。
+
+**TI (Telematik-Infrastruktur)**
+: ドイツの医療テレマティクスインフラ。ドイツの全国医療ITネットワーク。
+
+**TLS (Transport Layer Security)**
+: インターネット通信の暗号化プロトコル。HTTPSの基盤技術。
+
+## U
+
+**UCUM (Unified Code for Units of Measure)**
+: 統一測定単位コード。科学・工学分野での単位表記の国際標準。
+
+**UI/UX (User Interface/User Experience)**
+: ユーザーインターフェース/ユーザーエクスペリエンス。システムの使いやすさと利用体験。
+
+## V
+
+**VPN (Virtual Private Network)**
+: 仮想プライベートネットワーク。インターネット上に仮想的な専用線を構築する技術。
+
+## W
+
+**WHO (World Health Organization)**
+: 世界保健機関。国連の専門機関の一つで、世界の人々の健康を守ることを目的とする。
+
+## X
+
+**XML (eXtensible Markup Language)**
+: 拡張可能マークアップ言語。データの構造化と交換のための標準的な形式。
+
+## Z
+
+**ゼロトラスト (Zero Trust)**
+: セキュリティモデルの一つ。「何も信頼せず、すべてを検証する」原則に基づく。
+
+---
+
+## 略語一覧
+
+| 略語 | 正式名称 | 日本語訳 |
+|------|----------|----------|
+| AI | Artificial Intelligence | 人工知能 |
+| API | Application Programming Interface | アプリケーション・プログラミング・インターフェース |
+| CAGR | Compound Annual Growth Rate | 年平均成長率 |
+| CDO | Chief Data Officer | 最高データ責任者 |
+| DPIA | Data Protection Impact Assessment | データ保護影響評価 |
+| EHR | Electronic Health Record | 電子健康記録 |
+| EHDS | European Health Data Space | 欧州健康データ空間 |
+| FHIR | Fast Healthcare Interoperability Resources | 高速医療相互運用リソース |
+| GDPR | General Data Protection Regulation | EU一般データ保護規則 |
+| HL7 | Health Level Seven | ヘルスレベルセブン |
+| ICD | International Classification of Diseases | 国際疾病分類 |
+| IoT | Internet of Things | モノのインターネット |
+| JSON | JavaScript Object Notation | JavaScript Object Notation |
+| LOINC | Logical Observation Identifiers Names and Codes | 論理観察識別子名とコード |
+| MFA | Multi-Factor Authentication | 多要素認証 |
+| NPV | Net Present Value | 正味現在価値 |
+| PHR | Personal Health Record | 個人健康記録 |
+| REST | Representational State Transfer | 表現状態転送 |
+| ROI | Return on Investment | 投資利益率 |
+| SNOMED CT | Systematized Nomenclature of Medicine Clinical Terms | 系統的医学用語命名法 |
+| TLS | Transport Layer Security | トランスポート層セキュリティ |

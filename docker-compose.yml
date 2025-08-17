@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  ehds-report:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ehds-report-builder
+    volumes:
+      # プロジェクトファイルをマウント
+      - ./quarto-report:/workspace/quarto-report
+      - ./build:/workspace/build
+      - ./scripts:/workspace/scripts
+      - ./Makefile:/workspace/Makefile
+      # キャッシュディレクトリ（ビルド高速化）
+      - quarto-cache:/workspace/.quarto
+      - latex-cache:/var/cache/texmf
+    environment:
+      - TZ=Asia/Tokyo
+      - LANG=ja_JP.UTF-8
+    command: make all
+    
+  # 開発用プレビューサーバー
+  ehds-preview:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ehds-report-preview
+    volumes:
+      - ./quarto-report:/workspace/quarto-report
+      - ./build:/workspace/build
+      - ./scripts:/workspace/scripts
+      - ./Makefile:/workspace/Makefile
+      - quarto-cache:/workspace/.quarto
+    ports:
+      - "4000:4000"
+    environment:
+      - TZ=Asia/Tokyo
+      - LANG=ja_JP.UTF-8
+    command: make preview
+
+volumes:
+  quarto-cache:
+  latex-cache:

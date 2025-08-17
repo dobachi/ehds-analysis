@@ -1,0 +1,328 @@
+/* EHDS包括的分析レポート用カスタムスタイル */
+
+/* 基本的なレイアウト調整 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK JP", sans-serif;
+  line-height: 1.6;
+}
+
+/* 見出しのスタイル */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+/* テーブルのスタイル */
+table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+table td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+}
+
+/* コードブロックのスタイル */
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #e1e1e8;
+  border-radius: 4px;
+  padding: 1em;
+  overflow-x: auto;
+}
+
+code {
+  font-family: "Consolas", "Monaco", "Noto Sans Mono CJK JP", monospace;
+  font-size: 0.9em;
+}
+
+/* 引用ブロック */
+blockquote {
+  border-left: 4px solid #ddd;
+  padding-left: 1em;
+  margin-left: 0;
+  color: #666;
+  font-style: italic;
+}
+
+/* カスタムクラス：事実 */
+.fact {
+  background-color: #e8f4f8;
+  padding: 15px;
+  border-left: 4px solid #0066cc;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.fact strong:first-child {
+  color: #0066cc;
+}
+
+/* カスタムクラス：分析 */
+.analysis {
+  background-color: #e5f6ff;
+  padding: 15px;
+  border-left: 4px solid #0072c3;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+.analysis strong:first-child {
+  color: #0072c3;
+}
+
+/* Calloutボックス */
+.callout {
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.callout-note {
+  background-color: #e3f2fd;
+  border-left: 4px solid #2196f3;
+}
+
+.callout-warning {
+  background-color: #f0f7ff;
+  border-left: 4px solid #0043ce;
+}
+
+.callout-important {
+  background-color: #d0e2ff;
+  border-left: 4px solid #0043ce;
+}
+
+.callout-tip {
+  background-color: #e5f6ff;
+  border-left: 4px solid #0072c3;
+}
+
+/* 図表のキャプション */
+.figure-caption, .table-caption {
+  font-size: 0.9em;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+/* ナビゲーション調整 */
+.sidebar {
+  background-color: #f5f5f5;
+}
+
+.sidebar nav[role="doc-toc"] ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar nav[role="doc-toc"] ul ul {
+  padding-left: 1.5em;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  
+  table {
+    font-size: 0.85em;
+  }
+  
+  .fact, .analysis {
+    padding: 10px;
+    margin: 10px 0;
+  }
+}
+
+/* 印刷用スタイル */
+@media print {
+  .sidebar {
+    display: none;
+  }
+  
+  .fact, .analysis {
+    border: 1px solid #ddd;
+    page-break-inside: avoid;
+  }
+  
+  pre {
+    page-break-inside: avoid;
+  }
+  
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}
+
+/* 参考文献リスト */
+.references {
+  font-size: 0.9em;
+}
+
+.references > div {
+  margin-bottom: 0.5em;
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* Mermaid図のスタイル - モダンでプロフェッショナルなデザイン */
+.mermaid {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin: 30px 0;
+  padding: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mermaidのsubgraph背景 */
+.mermaid .cluster rect {
+  fill: #f9fafb !important;
+  stroke: #d1d5db !important;
+  stroke-width: 1px !important;
+  rx: 6;
+  ry: 6;
+}
+
+/* Mermaidのノード - シンプルでエレガント */
+.mermaid .node rect {
+  fill: #f3f4f6 !important;
+  stroke: #6b7280 !important;
+  stroke-width: 1px !important;
+  rx: 4;
+  ry: 4;
+}
+
+/* 重要なノードを強調（EHRxF、FHIR等） */
+.mermaid .node:nth-child(4n+1) rect {
+  fill: #fef3c7 !important;
+  stroke: #d97706 !important;
+  stroke-width: 2px !important;
+}
+
+.mermaid .node:nth-child(4n+2) rect {
+  fill: #dbeafe !important;
+  stroke: #2563eb !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid .node:nth-child(4n+3) rect {
+  fill: #dcfce7 !important;
+  stroke: #16a34a !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid .node:nth-child(4n) rect {
+  fill: #fce7f3 !important;
+  stroke: #c026d3 !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid .node circle,
+.mermaid .node ellipse {
+  fill: #ffffff !important;
+  stroke: #6b7280 !important;
+  stroke-width: 1.5px !important;
+}
+
+.mermaid .node polygon {
+  fill: #fef3c7 !important;
+  stroke: #d97706 !important;
+  stroke-width: 1.5px !important;
+}
+
+/* Mermaidのテキスト - 読みやすさ重視 */
+.mermaid .node text,
+.mermaid .cluster text {
+  fill: #1f2937 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK JP", sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+
+.mermaid .edgeLabel text {
+  fill: #4b5563 !important;
+  font-size: 11px !important;
+  font-weight: 400 !important;
+}
+
+/* Mermaidのエッジラベル */
+.mermaid .edgeLabel {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.mermaid .edgeLabel rect {
+  fill: rgba(255, 255, 255, 0.95) !important;
+  stroke: #e5e7eb !important;
+  stroke-width: 1px !important;
+  rx: 4;
+  ry: 4;
+}
+
+/* Mermaidの線 - スムーズなカーブ */
+.mermaid path.flowchart-link,
+.mermaid .edge-thickness-normal,
+.mermaid .flowchart-link {
+  stroke: #9ca3af !important;
+  stroke-width: 2px !important;
+  stroke-linecap: round !important;
+}
+
+/* Mermaidの矢印 */
+.mermaid .arrowheadPath {
+  fill: #6b7280 !important;
+  stroke: #6b7280 !important;
+}
+
+/* ホバー効果 - 控えめに */
+.mermaid .node rect:hover {
+  filter: brightness(0.95);
+  cursor: pointer;
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+  .fact {
+    background-color: #1a3a4a;
+    border-left-color: #4da6ff;
+  }
+  
+  .analysis {
+    background-color: #4a3a1a;
+    border-left-color: #ffb366;
+  }
+  
+  table th {
+    background-color: #2a2a2a;
+  }
+  
+  pre {
+    background-color: #1e1e1e;
+    border-color: #3a3a3a;
+  }
+  
+  /* ダークモードでもMermaid図は白背景を維持 */
+  .mermaid {
+    background-color: white !important;
+    border: 1px solid #666;
+  }
+}

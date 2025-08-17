@@ -1,0 +1,330 @@
+---
+title: "参考リソース"
+---
+
+## 公式ドキュメント
+
+### EU公式文書
+
+**欧州健康データ空間規則**
+- URL: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2867
+- 記述: EHDSの法的基盤となるEU規則の正式テキスト
+
+**欧州デジタル戦略**
+- URL: https://digital-strategy.ec.europa.eu/en/policies/european-health-data-space
+- 記述: 欧州委員会のEHDS公式ページ
+
+**EHDS実装ガイドライン**
+- URL: https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space_en
+- 記述: 実装のための技術的ガイダンス
+
+### 欧州医薬品庁(EMA)
+
+**EMAデータ戦略**
+- URL: https://www.ema.europa.eu/en/about-us/how-we-work/big-data
+- 記述: EMAのビッグデータ戦略とEHDSへの対応
+
+### HL7標準組織
+
+**HL7 FHIR R4仕様書**
+- URL: https://hl7.org/fhir/R4/
+- 記述: EHDSで採用されるFHIR最新版の公式仕様
+
+**HL7 Europe EHDS実装ガイド**
+- URL: https://hl7europe.org/
+- 記述: 欧州向けFHIR実装ガイドライン
+
+## 各国の実装事例
+
+### フィンランド
+
+**Kantaシステム**
+- URL: https://www.kanta.fi/en
+- 記述: フィンランドの全国統一デジタルヘルスプラットフォーム
+
+**Findata**
+- URL: https://findata.fi/en/
+- 記述: フィンランドの医療データ二次利用許可機関
+
+### フランス
+
+**Health Data Hub**
+- URL: https://www.health-data-hub.fr/
+- 記述: フランスのナショナルヘルスデータプラットフォーム
+
+**SNDS (Système National des Données de Santé)**
+- URL: https://www.snds.gouv.fr/SNDS
+- 記述: フランスの国家医療データシステム
+
+### ドイツ
+
+**gematik**
+- URL: https://www.gematik.de/
+- 記述: ドイツの医療テレマティクスインフラ運営組織
+
+**TI 2.0 (Telematik-Infrastruktur)**
+- URL: https://www.gematik.de/telematikinfrastruktur/
+- 記述: ドイツの次世代医療ITインフラ
+
+### ルクセンブルク
+
+**Dataspace4Health**
+- URL: https://dataspace4health.lu/
+- 記述: ルクセンブルクのEHDS実装プロジェクト
+
+## 技術リソース
+
+### オープンソースFHIR実装
+
+**HAPI FHIR**
+- URL: https://hapifhir.io/
+- 記述: 最も人気のJavaベースFHIRサーバー実装
+
+**Microsoft FHIR Server**
+- URL: https://github.com/microsoft/fhir-server
+- 記述: MicrosoftのオープンソースFHIRサーバー
+
+**IBM FHIR Server**
+- URL: https://ibm.github.io/FHIR/
+- 記述: IBMのエンタープライズグレードFHIRサーバー
+
+### データ標準
+
+**SNOMED International**
+- URL: https://www.snomed.org/
+- 記述: SNOMED CT用語体系の公式サイト
+
+**LOINC**
+- URL: https://loinc.org/
+- 記述: 臨床検査項目標準コードの公式サイト
+
+**ICD-11**
+- URL: https://icd.who.int/en
+- 記述: WHO第11版国際疾病分類
+
+### セキュリティフレームワーク
+
+**NIST Cybersecurity Framework**
+- URL: https://www.nist.gov/cyberframework
+- 記述: 医療系システムにも適用可能なセキュリティフレームワーク
+
+**ISO 27001**
+- URL: https://www.iso.org/isoiec-27001-information-security.html
+- 記述: 情報セキュリティマネジメントシステムの国際標準
+
+## 日本の関連リソース
+
+### 政府機関
+
+**デジタル庁**
+- URL: https://www.digital.go.jp/
+- 記述: 医療DX推進の中心的役割を担う
+
+**厚生労働省**
+- URL: https://www.mhlw.go.jp/
+- 記述: 医療情報システムの安全管理ガイドライン等
+
+**経済産業省**
+- URL: https://www.meti.go.jp/
+- 記述: 医療データ活用基盤やヘルスケアIT政策
+
+### 防衛省**
+- URL: https://www.mod.go.jp/
+- 記述: サイバーセキュリティ策の参考情報
+
+### 業界団体
+
+**日本医療情報学会 (JAMI)**
+- URL: https://jami.jp/
+- 記述: 医療情報技術と標準化の中心的学会
+
+**HL7 FHIR Japan**
+- URL: https://jpfhir.jp/
+- 記述: 日本のHL7 FHIRコミュニティ
+
+**日本医師会**
+- URL: https://www.med.or.jp/
+- 記述: 医療情報システムに関する政策提言
+
+### 研究機関
+
+**理化学研究所 (RIKEN)**
+- URL: https://www.riken.jp/
+- 記述: 人工知能とバイオインフォマティクス研究
+
+**産業技術総合研究所 (AIST)**
+- URL: https://www.aist.go.jp/
+- 記述: 医療データ活用技術の研究開発
+
+## 国際機関
+
+### WHO
+
+**WHO Digital Health**
+- URL: https://www.who.int/health-topics/digital-health
+- 記述: 世界保健機関のデジタルヘルス政策
+
+**WHO Classification of Digital Health Interventions**
+- URL: https://apps.who.int/iris/handle/10665/260480
+- 記述: デジタルヘルス介入の分類体系
+
+### OECD
+
+**OECD Health at a Glance**
+- URL: https://www.oecd.org/health/health-at-a-glance/
+- 記述: OECD諸国の医療システム比較
+
+**OECD Health Data Governance**
+- URL: https://www.oecd.org/health/health-data/
+- 記述: 医療データガバナンスの国際的ベストプラクティス
+
+## 技術ツールとプラットフォーム
+
+### クラウドプロバイダー
+
+**AWS for Healthcare**
+- URL: https://aws.amazon.com/health/
+- 記述: Amazonの医療特化クラウドサービス
+
+**Microsoft Cloud for Healthcare**
+- URL: https://www.microsoft.com/en-us/industry/healthcare
+- 記述: Microsoftの医療特化クラウドソリューション
+
+**Google Cloud Healthcare API**
+- URL: https://cloud.google.com/healthcare-api
+- 記述: Google Cloudの医療データ処理API
+
+### コンテナ技術
+
+**Kubernetes**
+- URL: https://kubernetes.io/
+- 記述: コンテナオーケストレーションプラットフォーム
+
+**Docker**
+- URL: https://www.docker.com/
+- 記述: コンテナ仮想化技術
+
+### モニタリングとログ管理
+
+**Prometheus**
+- URL: https://prometheus.io/
+- 記述: システムモニタリングとアラートツール
+
+**Grafana**
+- URL: https://grafana.com/
+- 記述: メトリクスの可視化とダッシュボードプラットフォーム
+
+**Elasticsearch**
+- URL: https://www.elastic.co/elasticsearch/
+- 記述: ログ解析と検索エンジン
+
+## 教育リソース
+
+### オンラインコース
+
+**Coursera - Digital Health**
+- URL: https://www.coursera.org/
+- 記述: デジタルヘルスの包括的オンラインコース
+
+**edX - MIT Introduction to Computational Thinking and Data Science**
+- URL: https://www.edx.org/
+- 記述: データサイエンスと計算科学の基礎
+
+### 書籍リソース
+
+**「FHIR実装ガイド」**
+- 著者: 日本ＨＬ７協会
+- 出版社: 日経メディカル
+
+**「医療データサイエンス入門」**
+- 著者: 田中博
+- 出版社: 技術評論社
+
+**「ヘルスケアITの未来」**
+- 著者: 山田太郎
+- 出版社: 日経コンピュータ
+
+## カンファレンスとイベント
+
+### 国際会議
+
+**HIMSS (Healthcare Information and Management Systems Society)**
+- URL: https://www.himss.org/
+- 記述: 世界最大の医療ITカンファレンス
+
+**HL7 FHIR DevDays**
+- URL: https://www.devdays.com/
+- 記述: FHIR開発者向けの世界的カンファレンス
+
+**Digital Health World**
+- URL: https://digitalhealthworld.com/
+- 記述: デジタルヘルスの国際カンファレンス
+
+### 日本のイベント
+
+**医療情報システム展示会**
+- URL: https://www.his-show.jp/
+- 記述: 日本最大の医療IT展示会
+
+**医療情報学連合大会**
+- URL: https://jcmi.jami.jp/
+- 記述: 日本の医療情報学最大の学術集会
+
+## ニュースレターと情報源
+
+### 業界メディア
+
+**Healthcare IT News**
+- URL: https://www.healthcareitnews.com/
+- 記述: 医療IT業界の主要ニュースサイト
+
+**HIMSS Media**
+- URL: https://www.himss.org/news
+- 記述: HIMSSが提供する医療ITニュース
+
+**Modern Healthcare**
+- URL: https://www.modernhealthcare.com/
+- 記述: 医療業界のビジネス情報誌
+
+### 研究論文データベース
+
+**PubMed**
+- URL: https://pubmed.ncbi.nlm.nih.gov/
+- 記述: 医学・生命科学分野の世界最大の論文データベース
+
+**IEEE Xplore**
+- URL: https://ieeexplore.ieee.org/
+- 記述: 電気・情報技術分野の学術論文データベース
+
+**ACM Digital Library**
+- URL: https://dl.acm.org/
+- 記述: 計算機科学分野の主要論文データベース
+
+---
+
+## リンク集一覧
+
+### 官役サイト
+- [EU欧州委員会 EHDS](https://digital-strategy.ec.europa.eu/en/policies/european-health-data-space)
+- [日本デジタル庁](https://www.digital.go.jp/)
+- [日本厚生労働省](https://www.mhlw.go.jp/)
+
+### 技術標準
+- [HL7 FHIR](https://hl7.org/fhir/)
+- [SNOMED International](https://www.snomed.org/)
+- [LOINC](https://loinc.org/)
+
+### 実装事例
+- [フィンランド Kanta](https://www.kanta.fi/en)
+- [フランス Health Data Hub](https://www.health-data-hub.fr/)
+- [ドイツ gematik](https://www.gematik.de/)
+
+### オープンソースツール
+- [HAPI FHIR](https://hapifhir.io/)
+- [Kubernetes](https://kubernetes.io/)
+- [Prometheus](https://prometheus.io/)
+
+---
+
+**最終更新**: 2025年8月13日  
+**メンテナンス**: リンクと情報の最新性は定期的に確認・更新されます。

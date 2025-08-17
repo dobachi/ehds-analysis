@@ -1,0 +1,31 @@
+{
+  "name": "ehds-report",
+  "version": "1.0.0",
+  "description": "EHDS包括的分析レポート - ビルド環境",
+  "scripts": {
+    "setup": "npm install && npx playwright install chromium",
+    "mermaid": "cd quarto-report && ../scripts/convert-mermaid.sh images images",
+    "build:html": "make html",
+    "build:pdf": "make pdf",
+    "build:docx": "make docx",
+    "build:all": "make all",
+    "preview": "make preview",
+    "clean": "make clean",
+    "test": "npm run build:html"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.46.0"
+  },
+  "keywords": [
+    "EHDS",
+    "healthcare",
+    "report",
+    "quarto",
+    "mermaid"
+  ],
+  "author": "",
+  "license": "MIT"
+}

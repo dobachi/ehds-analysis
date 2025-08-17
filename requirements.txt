@@ -1,0 +1,16 @@
+# EHDS包括レポート - Python依存関係
+# 
+# 使用方法:
+#   pip install -r requirements.txt
+
+# ドキュメント処理
+pandoc-utils>=1.0.0
+
+# データ処理・分析（オプション）
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# ユーティリティ
+pyyaml>=6.0
+requests>=2.31.0

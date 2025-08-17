@@ -1,0 +1,46 @@
+graph TB
+    subgraph "アプリケーション層"
+        MyHealth["MyHealth@EU<br/>患者サマリー・処方箋"]
+        HealthData["HealthData@EU<br/>研究・二次利用"]
+    end
+    
+    subgraph "データ形式層"
+        EHRxF["EHRxF<br/>欧州EHR交換フォーマット"]
+        EHRxF --> PS["患者サマリー"]
+        EHRxF --> EP["電子処方箋"]
+        EHRxF --> LR["検査結果"]
+        EHRxF --> IMG["医療画像"]
+        EHRxF --> HD["退院報告"]
+    end
+    
+    subgraph "標準規格層"
+        FHIR["HL7 FHIR R4"]
+        CDA["HL7 CDA"]
+        DICOM["DICOM"]
+    end
+    
+    subgraph "基盤技術層"
+        eIDAS["eIDAS認証"]
+        eDelivery["eDelivery"]
+        Security["セキュリティ"]
+    end
+    
+    MyHealth --> EHRxF
+    HealthData --> EHRxF
+    EHRxF --> FHIR
+    EHRxF -.->|移行中| CDA
+    IMG --> DICOM
+    
+    FHIR --> eIDAS
+    FHIR --> eDelivery
+    FHIR --> Security
+    
+    classDef app fill:#d0e2ff,stroke:#0043ce,stroke-width:2px
+    classDef data fill:#bee1ff,stroke:#0043ce,stroke-width:3px
+    classDef standard fill:#a6c8ff,stroke:#0043ce,stroke-width:2px
+    classDef infra fill:#e5f6ff,stroke:#0043ce,stroke-width:2px
+    
+    class MyHealth,HealthData app
+    class EHRxF,PS,EP,LR,IMG,HD data
+    class FHIR,CDA,DICOM standard
+    class eIDAS,eDelivery,Security infra

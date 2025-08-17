@@ -1,0 +1,21 @@
+graph LR
+    subgraph "現状"
+        L1["レガシーシステム"]
+    end
+    
+    subgraph "移行期"
+        L2["レガシーシステム"]
+        AD["アダプター層"]
+        API["新API"]
+        L2 --> AD
+        AD --> API
+    end
+    
+    subgraph "将来"
+        M["モダンシステム"]
+        MAPI["統一API"]
+        M --> MAPI
+    end
+    
+    L1 --> L2
+    API --> MAPI

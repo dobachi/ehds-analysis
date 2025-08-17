@@ -1,0 +1,147 @@
+project:
+  type: book
+  output-dir: ../build
+
+book:
+  title: "EHDS（欧州健康データ空間）包括的分析レポート"
+  subtitle: "日本の医療データスペース構築への戦略的示唆"
+  author: 
+    - name: "医療データ戦略研究チーム"
+  date: "2025-08-13"
+  cover-image: cover.png
+  
+  chapters:
+    - index.qmd
+    - part: "概要と背景"
+      chapters:
+        - 01-introduction.qmd
+        - 02-regulatory-framework.qmd
+    - part: "技術と実装"
+      chapters:
+        - 03-technical-architecture.qmd
+        - 04-implementation-cases.qmd
+    - part: "日本への展開"
+      chapters:
+        - 05-japan-recommendations.qmd
+        - 06-technical-guidelines.qmd
+        - 07-business-case.qmd
+    - 08-conclusion.qmd
+    - references.qmd
+  
+  appendices:
+    - A-glossary.qmd
+    - B-resources.qmd
+    - C-full-references.qmd
+    - D-medical-economic-analysis.qmd
+
+bibliography: references.bib
+csl: ieee.csl
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    number-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: github
+    css: styles.css
+    mermaid:
+      theme: default
+    include-in-header:
+      - text: |
+          <style>
+          .fact {
+            background-color: #e8f4f8;
+            padding: 10px;
+            border-left: 4px solid #0066cc;
+            margin: 10px 0;
+          }
+          .analysis {
+            background-color: #f8f4e8;
+            padding: 10px;
+            border-left: 4px solid #cc6600;
+            margin: 10px 0;
+          }
+          /* Mermaid diagram styles */
+          .mermaid {
+            background-color: white !important;
+          }
+          .mermaid rect {
+            fill: #f9f9f9 !important;
+            stroke: #333 !important;
+          }
+          .mermaid text {
+            fill: #333 !important;
+          }
+          .mermaid .node rect {
+            fill: #fff !important;
+            stroke: #333 !important;
+          }
+          .mermaid .node text {
+            fill: #333 !important;
+          }
+          .mermaid .edgeLabel {
+            background-color: white !important;
+            fill: #333 !important;
+          }
+          </style>
+  
+  pdf:
+    documentclass: ltjsbook
+    classoption:
+      - a4paper
+      - 11pt
+    papersize: a4
+    margin-left: 25mm
+    margin-right: 25mm
+    margin-top: 25mm
+    margin-bottom: 25mm
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    mainfont: "Noto Serif CJK JP"
+    sansfont: "Noto Sans CJK JP"
+    monofont: "Noto Sans Mono CJK JP"
+    pdf-engine: lualatex
+    keep-tex: false
+    include-in-header:
+      - text: |
+          \usepackage{float}
+          \usepackage{graphicx}
+          \usepackage{adjustbox}
+          % 図の最大幅を本文幅に制限
+          \makeatletter
+          \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+          \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+          \makeatother
+          \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+          % Mermaid図や表を自動的にページ幅に収める
+          \usepackage{fvextra}
+          \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+  
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    highlight-style: github
+    reference-doc: template.docx
+
+execute:
+  enabled: false
+
+language:
+  ui:
+    chapter-name: "第"
+    part-name: "部"
+    appendix-name: "付録"
+    figure-name: "図"
+    table-name: "表"
+    listing-name: "リスト"
+    proof-name: "証明"

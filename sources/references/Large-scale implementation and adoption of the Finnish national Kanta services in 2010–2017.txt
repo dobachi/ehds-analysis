@@ -1,0 +1,1532 @@
+OTHER ARTICLES
+
+Large-scale implementation and adoption of the Finnish national
+Kanta services in 2010–2017: a prospective, longitudinal,
+indicator-based study
+Vesa Jormanainen
+Health and Social Systems Research, National Institute for Health and Welfare (THL), Helsinki, Finland
+
+Vesa Jormanainen, M.D., M.Sc., Specialist in Health Care, Health and Social Systems Research, National Institute
+for Health and Welfare (THL), P.O. Box 30, FI-00271 Helsinki, FINLAND. Email: vesa.jormanainen@thl.fi.
+
+Abstract
+In Finland, implementation and adoption of the national Kanta services’ second phase services were carried out
+step-by-step from May 2010 till December 2017. The Kanta services currently include integrated, interoperable
+health information from EMR, EHR, PHR and social welfare sources that can benefit patients, care providers and
+policy makers.
+The Ministry of Social Affairs and Health steers the Kanta services, and was responsible of the first phase implementation activities since July 2007. For the second phase of implementation and adoption of the services, a new
+national operational coordination function was established by law in January 2011. The adoption and implementation of the Kanta services would not have been possible without joint efforts of stakeholders and provision of adequate (state) funding.
+A set of indicators for various prospective, longitudinal monthly follow-up were used. Indicator data were collected
+from the various Kanta services in Kela and sent to the THL usually within a working week after end of a month.
+Indicator data were checked and entered to charts and tables, and reported for various functions.
+The current principal Kanta services include My Kanta Pages (since May 2010), Prescription Centre (May 2010),
+Pharmaceutical Database (May 2010), Patient Data Repository and Patient Data Management Service (November
+2013), Kelain (September 2016), and Client Data Archive for Social Welfare Services (May 2018) and Kanta Personal
+Health Record (May 2018).
+Keywords: electronic health records, health information exchange, electronic prescribing, health records, personal
+Finland
+
+Introduction
+Information and communication technology applications can improve information management, access to
+health services, quality and safety of care, continuity of
+
+services and cost containment [1–9]. However, technology is used sparingly [10].
+Electronic medical records (EMR) and electronic health
+records (EHR) are used by physicians and other health
+care professionals to improve quality of care and con-
+
+Published under a CC BY-NC-ND 4.0 license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+4.12.2018
+
+FinJeHeW 2018;10(4)
+
+381
+
+OTHER ARTICLES
+
+tain costs [11–13]. EMR is a longitudinal electronic record of patient health information generated in a care
+delivery setting designed to provide a comprehensive
+picture of the patient’s condition at all time [11,13,14].
+Thus, EMR stores institutional data (partial patient
+medical history). EHR shares health information across
+providers, and EHRs are the building blocks of health
+information exchange (HIE) networks that provide interoperability between different entities and enable the
+sharing of data and information about patients’ medical
+and health histories [15–20]. Personal health records
+(PHR) are electronic medical charts containing medical
+data and information about a patient that are maintained by patients themselves [11,13]. Patients can
+access PHRs online (patient portal).
+Integrating health information from all three EMR, EHR
+and PHR sources can potentially benefit patients, care
+providers and policy makers by providing a comprehensive view as required in the concept of patient centered
+care. However, the benefits of such high-volume, comprehensive data integration do not come cheaply [1,3–
+5,13].
+The implementation and adoption design of information systems has traditionally been a choice between
+a top-down and a bottom-up approach with consequences [21–23]. Major restructuring of services usually
+needs large scale information systems projects that
+suffer from recognized and well-documented problems
+[22–24], with published examples of failure [9,25–28].
+Barriers and facilitators to information systems adoption and data sharing in health care settings are identified in the literature [3,29,30].
+Generally, information systems adoption is complex,
+multi-dimensional and influenced by a variety of factors
+at individual and organizational levels [3,21,25,31–33].
+The larger the scale, the greater its chances of failure
+[31]. The past lessons and difficulties facing large information systems projects point, for example, towards
+modularisation [2,22,23,34]. Building national or large
+scale health information systems infrastructure is a
+problem entirely different from that of simply replicating a clinical system across many different institutions
+[21]. Implementation is not a simple straightforward
+
+4.12.2018
+
+linear process [9], and shared electronic patients’ records are not just plug-in technologies [31]. Adoption
+and implementation is not the same thing: just because
+an information system has been adopted, it does not
+necessarily mean it is being used (or used in the way it
+was intended). The more comprehensive the technology or the wider the span of the implementation, the
+more difficult it is to achieve success. Measuring success is not straightforward, and consequences are likely
+to be multiple and require measurement of outcomes
+at multiple levels. Health care settings are complex as
+are information systems, too [35,36]. Thus, implementing information systems is a risky business.
+Whilst the literature on implementation of EHR is limited, there are nonetheless a number of salutary case
+studies [25,37,38]. However, there is likely a positive
+bias due to non-publication of negative results [39]. For
+successful adoption and implementation, provision of
+adequate funding is the primary organizational requirement [9,39]. The challenge to successful implementation is primarily around the socio-technical and
+contextual domains [40,41].
+For EHR implementation and adoption follow-up purposes, sets of indicators have been used [42–44]. In
+addition, various populations have been subjects for
+questionnaire studies to gather user needs and experiences in regard to health or social care information
+systems. In Finland such investigations have been carried out among social welfare and health care organisations [45–51], citizens [52–55], health care [56–64] and
+pharmacy [65] professionals.
+The study purpose was to document central building
+blocks of a large-scale nationwide development process
+that was set up to implement electronic services based
+on national legislation in Finland. The study objective
+was to describe implementation and adoption of the
+national Kanta services in 2010–2017 in Finland by
+using indicators during follow-up.
+
+FinJeHeW 2018;10(4)
+
+382
+
+OTHER ARTICLES
+
+Material and methods
+
+Study context
+Kanta is the name of the Finnish national digital data
+system services that form a unique service entity based
+on legislation effective since July 2007. The principal
+services include My Kanta Pages (since May 2010),
+Prescription Centre (ePC) (May 2010), Pharmaceutical
+Database (May 2010), Patient Data Repository (PDR)
+and Patient Data Management Service (PDMS) (November 2013), Kelain (September 2016), Client Data
+Archive for Social Welfare Services (CDA) (May 2018)
+and Kanta Personal Health Record (Kanta PHR) (May
+2018) (Figure 1). The Kanta services have been
+launched in stages. They are built jointly in cooperation
+with several national actors as well as health and social
+care service providers, pharmacies and system suppliers.
+
+Records saved in the Kanta services are processed in a
+secure and reliable manner. The data are processed by
+pharmacies, health care (and later social welfare) professionals who need to verify their identity to access
+the Kanta services. All transfer of data between health
+care services, pharmacies and the Kanta services is
+encrypted between identified parties. The identity of
+users of the ePC and the PDR is verified using strong
+electronic identification.
+
+Kanta Client Test Service and Certification
+The Kanta Client Test Service is meant for manufacturers of patient data and pharmacy data systems, as well
+as for health care organisations and pharmacies acting
+as their client testers. Data system manufacturers test
+the implementation of their systems in the test service
+against different Kanta services (ePC, PDR, CDA, other)
+before certification and for subsequent product development.
+
+Figure 1. Current architecture of the national Kanta services in Finland (numbers refer to chapters in results).
+
+4.12.2018
+
+FinJeHeW 2018;10(4)
+
+383
+
+OTHER ARTICLES
+
+Certification is a process for verifying that information
+systems meet the key requirements. Certification applies to information systems related to the Kanta services and to Kanta transmission services. As part of
+certification, joint testing is carried out with Kela’s Kanta services and an information security audit is performed with an information security inspection body
+accredited by the Finnish Communications Regulatory
+Authority. As a result of accepted certification, a system
+or transmission service will receive a mandatory conformity certificate for systems joining the Kanta services. At present, 21 systems have passed joint testing
+for ePC, 20 systems for PDR and 3 systems for CDA. In
+addition, one system has passed joint testing for archiving imaging data.
+
+National Code Service
+The task of Code Service activities is to ensure the quality of the data structures used nationally in social welfare and health care and to take responsibility of their
+development and maintenance by the National Institute
+of Health and Welfare (THL). The data structures include code sets, classifications, form structures, texts,
+register data as well as vocabularies and terminologies
+related to them.
+The standardized data structures required by the electronic client data systems in social welfare and health
+care as well as the central code sets of the statistical
+and register data collection are all published on the
+code server. The code sets are available on the Code
+Server free of charge.
+
+Methods
+
+Kela Kanta services provided prospectively the indicator
+material from January 2010 to December 2017. Indicator data in this study were collected from the various
+Kanta services in Kela and sent to the THL usually within
+a working week after end of a month. Indicator data
+were checked and entered to charts and tables, and
+reported mainly internally for those who needed to
+know the detailed information.
+
+Results
+[1] My Kanta Pages
+My Kanta Pages is an online service where citizens can
+browse their own information recorded in the ePC and
+the PDR regardless of whether they have used public or
+private health care services. My Kanta Pages does not
+have a database of its own.
+My Kanta Pages can be used by a person who has a
+Finnish personal identity code. To access My Kanta
+Pages, a person must select an identification method
+out of three possibilities: identification using online
+banking codes, or mobile identification, or certificate
+card (electronic ID card).
+In My Kanta Pages one can monitor the use and submission of one’s own information. One can see which
+organisations have viewed and processed one’s electronic prescription (ePrescription) data or where one’s
+patient data has been submitted to. One can also ask
+health care services who has processed and viewed
+information concerning oneself. ePrescriptions and
+medicine purchases can be viewed in My Kanta Pages
+for 2.5 years from the date the ePrescriptions were
+issued. However, medical records will be available in
+the service for as long as the law requires.
+
+A set of indicators for various monthly follow-up, communication and reporting purposes are shown in Table
+1. Monthly time series data are presented in Figures 2
+and 3, and annual time series data in Figure 4. The statistical material is based on census, and thus, neither
+statistical testing nor confidence interval calculations
+were performed.
+
+4.12.2018
+
+FinJeHeW 2018;10(4)
+
+384
+
+OTHER ARTICLES
+
+Table 1. Large scale implementation and adoption of the Finnish national Kanta services: follow-up indicators by year in 2010-2017, cumulative numbers.
+Kanta service
+
+Indicator
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+My Kanta Pages
+
+Logins
+Electronic prescription renewal requests
+Parents or guardians acting on behalf of children <10-yr
+Visits by children <18-yr
+Visits
+Persons
+Electronic prescriptions (ePrescriptions) recorded
+ePrescriptions recorded
+ePrescriptions recorded from EMRs / EHRs
+ePrescriptions recorded from Kelain
+Prescriptions recorded at community pharmacies
+Paper prescriptions
+Telephone prescriptions
+Special permission prescriptions
+Dispensations (purchase events) at community pharmacies
+Systems approved or certified
+EMR / EHR systems
+Pharmacy systems
+Prescription Centre subscribers
+Subscribers, pharmacies
+Subscribers, public health care providers
+Subscribers, private health care providers
+Kelain subscribers
+Patient Data Repository (PDR), recorded / archived documents
+PDR, service encounters
+PDR, persons
+Patient Data Management Service (PDMS), informings
+PDMS, consents
+PDMS, refusals
+PDMS, organ donation testaments
+PDMS living wills
+Systems approved / certified
+EMR / EHR systems
+Patient Data Repository subscribers
+PDR subscribers, public health care providers
+PDR subscribers, private health care providers
+Population (at least 18 year old adults)
+Population (all)
+
+996
+0
+0
+0
+712
+683
+11 733
+11 733
+11 733
+0
+0
+0
+0
+0
+9 343
+3
+1
+1
+11
+10
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4 290 980
+5 375 276
+
+26 948
+0
+0
+0
+17 246
+11 866
+344 044
+344 044
+344 044
+0
+0
+0
+0
+0
+358 844
+9
+5
+3
+639
+617
+22
+0
+0
+51 407
+19 737
+(nr)
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+4 319 501
+5 401 267
+
+357 918
+0
+0
+0
+218 152
+113 747
+4 845 793
+4 845 793
+4 845 793
+0
+0
+0
+0
+0
+5 714 509
+10
+6
+3
+947
+818
+129
+0
+0
+116 051
+43 703
+(nr)
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+4 347 944
+5 426 674
+
+1 679 131
+0
+0
+0
+1 010 694
+368 902
+20 357 844
+20 357 844
+20 357 844
+0
+0
+0
+0
+0
+28 269 092
+13
+9
+3
+1 018
+815
+172
+31
+0
+468 468
+340 254
+(nr)
+0
+0
+0
+0
+0
+1
+1
+1
+1
+0
+4 374 590
+5 451 270
+
+4 459 608
+0
+0
+0
+2 719 763
+825 507
+44 514 696
+44 514 696
+44 514 696
+0
+0
+0
+0
+0
+67 190 186
+19
+16
+3
+1 193
+815
+173
+205
+0
+56 197 475
+35 430 389
+2 715 316
+2 242 251
+693 697
+9 847
+0
+0
+6
+6
+125
+125
+0
+4 396 261
+5 471 753
+
+9 993 554
+101 350
+0
+0
+5 696 021
+1 348 587
+72 441 457
+72 441 457
+72 441 457
+0
+0
+0
+0
+0
+116 219 459
+14
+11
+3
+1 245
+815
+176
+254
+0
+296 274 994
+169 712 428
+4 725 516
+3 638 407
+1 556 154
+23 898
+0
+0
+12
+8
+176
+176
+0
+4 414 248
+5 487 308
+
+19 279 211
+1 659 547
+138 972
+16 988
+10 300 844
+1 893 891
+102 051 632
+102 051 632
+102 032 080
+19 552
+0
+0
+0
+0
+171 335 201
+20
+16
+3
+1 772
+815
+179
+778
+5 094
+599 229 063
+335 408 343
+5 408 652
+4 658 620
+2 288 058
+47 018
+149 031
+33 983
+20
+12
+256
+179
+77
+4 431 392
+5 503 297
+
+32 448 040
+3 956 184
+1 059 953
+22 844
+16 446 265
+2 369 521
+133 560 573
+133 156 984
+132 835 518
+321 466
+403 589
+262 413
+134 742
+6 434
+232 746 667
+20
+16
+3
+2 262
+815
+179
+1 268
+15 249
+973 547 042
+519 938 514
+5 771 969
+5 574 844
+2 877 246
+68 349
+223 998
+55 898
+20
+12
+502
+179
+323
+4 446 869
+5 513 130
+
+Prescription Centre
+
+Patient Data
+Repository
+
+(nr) = no data
+
+4.12.2018
+
+FinJeHeW 2018;10(4)
+
+385
+
+OTHER ARTICLES
+
+Number
+1 400 000
+
+1 132 729 (12/2017)
+
+Logins
+
+1 200 000
+
+1 000 000
+
+800 000
+
+535 868 (12/2017)
+
+600 000
+
+Visits
+
+400 000
+
+2.37 million persons
+
+200 000
+
+have used the service by
+31.12.2017
+
+0
+1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11 1 3 5 7 9 11
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+1.88 million persons
+used the service in 2017
+
+Figure 2. My Kanta Pages online service: logins and visits by month in 2010–2017 in Finland.
+ePrescription
+start 20 May.2010
+
+Pharmacies
+by 1 April 2012
+
+Public health care
+by 1 April 2013
+
+Private health care
+by 1 January 2014 (>5000 Rx/Year)
+
+Mandatory
+since 1.1.2017
+
+6,0
+5.8 million (12/2017)
+5,5
+
+Dispensing purchase
+events of ePrescriptions
+at community pharmacies
+
+5,0
+4,5
+4,0
+3,5
+3,0
+
+2.7 million (12/2017)
+2,5
+
+ePrescriptions recorded
+to the Prescription Centre
+
+2,0
+1,5
+
+1,0
+0,5
+0,0
+
+1
+
+4
+
+7
+
+2009
+
+10
+
+1
+
+4
+
+2010
+
+7
+
+10
+
+1
+
+4
+
+2011
+
+7
+
+10
+
+1
+
+4
+
+2012
+
+7
+
+10
+
+1
+
+4
+
+2013
+
+7
+
+10
+
+1
+
+4
+
+7
+
+2014
+
+10
+
+1
+
+4
+
+2015
+
+7
+
+10
+
+1
+
+4
+
+2016
+
+7
+
+10
+
+1
+
+4
+
+7
+
+10
+
+2017
+
+Figure 3. ePrescriptions recorded to the national Prescription Centre and dispensing purchase events based on
+ePrescriptions at the community pharmacies by month in 2010–2017 in Finland.
+Altogether 2.37 million persons had used My Kanta
+Pages by 31st December 2017 (Figure 2, Table 1). The
+proportion of use is 43% of the total population in Finland but adults is actually the reference population
+
+4.12.2018
+
+(53% of the adults) since under 18-year-old children
+have used the service only 23,000 times. My Kanta
+Pages has been used 16.45 million times (32.45 million
+logins). The number of visits and logins increased in an
+
+FinJeHeW 2018;10(4)
+
+386
+
+OTHER ARTICLES
+
+exponential fashion from 2010 to 2017, and use of the
+service was characteristically lower in the summer
+months. In 2017, My Kanta Pages was used by 1.88
+million persons 6.15 million times (13.17 million logins).
+One can send ePrescription renewal requests via My
+Kanta Pages (service available since November 2015)
+only for ePrescriptions that have already been used for
+buying medicine. If the ePrescription is valid for two
+years, it can be renewed for 28 months from the issue
+date. Other ePrescriptions can be renewed for 16
+months. Altogether, 3.96 million renewal requests were
+sent via My Kanta Pages by 31st December 2017 (Table
+1). In 2017, there were 2.30 million renewal requests.
+In My Kanta Pages, parents and guardians can view the
+medical records of children under 10 years of age (data
+born since August 2016, and service available since
+October 2016). As before, parents and guardians of
+children over the age of 10 can ask their health care
+services or pharmacy for information on their children’s
+health or prescriptions. Parents or guardians used the
+service 1.06 million times by 31st December 2017 (0.92
+million times in 2017) (Table 1).
+Also children under 18 years of age can view their medical records (data born since August 2016, and service
+available since October 2016). In total, 22,844 visits
+were recorded by 31st December 2017 (Table 1).
+The Patient Data Management Service (PDMS) has been
+implemented as part of the PDR. Information about the
+fact that the patient has been informed of the nationwide data system services is recorded in the PDMS. A
+person can read the information and give one’s consent
+to view the data so that the people who are treating
+one can view his/her medical records. In My Kanta
+Pages, a person can also give one’s refusal to share
+one’s ePrescription and patient data. These settings can
+be changed at a later date if one so wish. By 31st December 2017, PDMS had records of 5.57 million informings, 2.88 million consents and 68,349 refusals (Table
+1).
+One can set up a living will and/or organ donation testament in My Kanta Pages. In a living will, one can ex-
+
+4.12.2018
+
+press wishes and give instructions about one’s health
+care, and it is complied with when one is no longer able
+to express wishes. With the organ donation testament
+one can declare whether or not one agree to donate
+one’s organs or tissues after one’s death. The information is passed from My Kanta Pages to the health
+care services. By 31st December 2017, PDMS had records of 223,998 organ donation testaments and 55,896
+living wills (Table 1).
+
+[2] Prescription Centre
+All prescriptions are issued and dispensed electronically
+via the Kanta services since January 2017. Data on paper or telephone prescriptions are recorded to the ePC
+at community pharmacies. Once an ePrescription is
+issued, one will be given patient instructions as a paper
+copy, showing the names and dosage instructions of the
+medicines. The ePrescription is valid for two years if the
+validity period is not restricted. An ePrescription for
+central nervous system drugs (CNS) and narcotic medications is valid for a maximum of one year. ePrescriptions are issued and signed electronically and then
+saved in the ePC. The ePC includes records of ePrescriptions and medication dispensing at community pharmacies.
+The issuer of an ePrescription can verify the patient’s
+ePrescriptions and dispensed medications. The patient
+is given a set of patient instructions, which includes key
+information about the medicines prescribed electronically at any time. In the pharmacy, a pharmacist retrieves the ePrescription data from the ePC on the basis
+of the patient’s personal details or the identifier on the
+patient instructions. They then save the dispensing data
+of the medication in the ePC. The dispensing data are
+also printed out and enclosed with the dose instructions of the medicine package.
+Physicians can view the ePrescriptions they have issued
+themselves. A pharmacy can view the ePrescriptions
+when medicines are being collected. A physician or
+nurse treating one can view one’s ePrescriptions if one
+gives a verbal consent to it. Without one’s consent, a
+physician may view one’s data only in an emergency.
+
+FinJeHeW 2018;10(4)
+
+387
+
+OTHER ARTICLES
+
+However, an important exception exists: if a physician
+prescribes CNS or narcotic medicines, they can view the
+ePrescriptions of the medicines in question. In My Kanta Pages, one can refuse permission for other physicians
+or pharmacies to view one’s ePrescription data. In this
+case one will only be able to get one’s medication from
+the community pharmacy by showing the patient instructions or a printed summary of one’s ePrescriptions.
+The first ePrescription was issued, dispensed and recorded in the ePC in May 2010. Large-scale ePC subscribing deployment in community pharmacies started in
+September 2010 and 98% of the pharmacies had subscribed ePC by the 31st March 2012 deadline set in the
+legislation. Large-scale ePC subscribing deployment in
+public health care started in May 2011 and 95% of the
+172 public health care providers had subscribed ePC by
+the 31st March 2013 deadline. Private health care providers were due to subscribe ePC in two phases: providers prescribing more than 5,000 prescriptions annually were due to subscribe ePC by the 31st March 2014
+whereas the rest by 31st December 2016. The first
+private health care provider prescribed ePC in April
+2013. All pharmacies, public health care providers and
+1,268 private health care providers had subscribed ePC
+by 31st December 2017 (Table 1).
+
+The number of ePrescriptions and medicine dispensing
+(purchase) events by month are presented in Figure 3
+and Table 1. By 31st December 2017, altogether 133.56
+million ePrescriptions were recorded in the ePC, and
+community pharmacies had dispensed 232.75 million
+medicine purchases based on ePC data (Figure 4, Table
+1). In Finland, ePrescription became mandatory in January 2017 (100% coverage). In 2017, altogether 31.91
+million new ePrescriptions were recorded, out of which
+31.19 million (97.74%) were from EHRs and 0.32 million
+(1.01%) from Kelain. Community pharmacies recorded
+0.26 million (0.82%) paper and 0.13 million (0.42%)
+telephone prescriptions to ePC.
+
+[3] Pharmaceutical Database
+The Pharmaceutical Database serves especially health
+care professionals. All health care units and pharmacies
+that have subscribed ePC use data based on the Pharmaceutical Database. The database includes the necessary and up-to-date information about medicines, their
+price and reimbursement status, about mutually substitutable medicinal products, and about reimbursable
+basic topical ointments and clinical nutritional preparations with respect to prescribing and dispensing of medicines. The database is updated twice a month.
+
+70 000 000
+
+Per cent (%) of
+all dispensing
+events
+
+60 000 000
+
+100%
+
+61.4 million
+
+95%
+90%
+
+50 000 000
+75%
+
+40 000 000
+
+100%
+
+31.9 million
+
+30 000 000
+44%
+
+20 000 000
+10 000 000
+
+10%
+0.02% 0.7%
+
+0
+
+Electronic prescriptions
+134 618 502
+
+2010
+2011
+2012
+2013
+2014
+2015
+2016
+2017
+
+Dispensing events
+232 727 338
+
+Figure 4. Annual numbers of ePrescriptions recorded to the national Prescription Centre and dispensing purchase
+events based on ePrescriptions at the community pharmacies in 2010–2017 in Finland.
+
+4.12.2018
+
+FinJeHeW 2018;10(4)
+
+388
+
+OTHER ARTICLES
+
+[4] Patient Data Repository
+Information about one’s medical care and test results is
+recorded in the PDR. Patient data in the PDR can be
+used by the health care provider that recorded the
+data. One’s consent is needed for sharing the data with
+other health care providers. The consent is valid until
+further notice, and it concerns all patient data in the
+system and data recorded there at a later date. However, one can limit the use of one’s data by issuing a refusal. One can cancel consent or refusal in the health
+care services or in My Kanta Pages. The PDR enables
+transmission of information between health care organisations, offering centralized archiving and long-term
+storage of electronic patient data.
+The PDR was subscribed the first time in November
+2013. Large-scale PDR subscribing deployment in public
+health care started in March 2014. In total, 57 (33%)
+public health care providers had subscribed PDR by the
+31st August 2014 deadline set in the legislation, covering 29% of the population. The last public health care
+provider subscribed PDR in December 2015. The first
+private health care provider subscribed PDR in February
+2016. All public and 363 private health care providers
+had subscribed PDR by 31st December 2017. Also oral
+health care data are recorded in PDR since May 2017
+and one can view one’s own data in My Kanta Pages.
+The PDR is used in mainland Finland but not in Åland
+Islands.
+In total, there were 973.55 million patient documents
+from 519.94 million service encounters of 5.77 million
+persons in the PDR by 31st December 2017 (Table 1).
+The number of new documents in 2017 was 374.32
+million (184.53 million encounters).
+It is possible to submit health care certificates (such as
+medical certificate A for short-term sick leave) electronically to Kela from the surgery. Medical certificates are
+recorded in the PDR and can be viewed online at My
+Kanta Pages. Some health care units are using the service of archiving of old patient data (data born before
+subscribing the PDR), which facilitates data archiving
+that is compulsory by law. These data cannot be viewed
+in My Kanta Pages.
+
+4.12.2018
+
+The national archive of imaging data in the PDR will be
+available in late 2018. Imaging materials such as X-ray
+and magnetic resonance images are archived in the
+service. The national archive of imaging data is meant
+for the use of health care professionals.
+
+[5] Kelain
+Kelain is an online service particularly suited for private
+use by physicians and dentists. Currently Kelain can be
+used for issuing and renewing ePrescriptions. There
+were 15,249 Kelain subscribers at 31st December 2017,
+and they had issued 341,018 ePrescriptions for 16,785
+persons (321,466 ePrescriptions in 2017).
+
+[6] My Kanta Pages Personal Health Record (Kanta
+PHR)
+With My Kanta Pages Personal Health Record (Kanta
+PHR) one can monitor wellbeing and save health data in
+the service. The Kanta PHR is used with a wellbeing
+application (a mobile device such as a smartphone or a
+tablet, or a program or service used in a computer)
+approved by the Kanta services. In the future, data in
+Kanta PHR can also be utilized by health care professionals in support of one’s care if one gives consent to
+it.
+
+[7] Client Data Archive for Social Welfare Services
+The first social welfare service providers are already
+recording their clients’ documents in the Client Data
+Archive (CDA) for Social Welfare Services. From autumn
+2018, other public and private social welfare service
+providers can also start using the CDA. At present, there
+are client documents of 10,817 persons in the CDA
+recorded by 2 data systems. A major, partially statesubvented nationwide education program (focus on
+recording) was launched to support CDA implementation and adoption. The program has already produced
+1,700 recording facilitators, who have coached 16,200
+(19% in public and 2% in private social care) social care
+professionals. In the future, one will also be able to
+
+FinJeHeW 2018;10(4)
+
+389
+
+OTHER ARTICLES
+
+view the social welfare data concerning oneself in My
+Kanta Pages (service available in 2020 at the earliest).
+
+Patient Care Record of Out-of-Hospital Emergency
+Medical Services
+The patient care record (ePCR) of out-of-hospital emergency medical services (EMS) introduces a new user
+group to Kanta services. The objective is to record the
+ePCR as part of the patient records in the Kanta services. An ePCR is created, for example, in the ambulance.
+
+Discussion
+In Finland, implementation and adoption of the national Kanta services’ second phase services was carried out
+in step-by-step series of service launches since 2010.
+The Kanta services currently include integrated, interoperable health information from EMR, EHR, PHR
+and social welfare sources that can benefit patients,
+care providers and policy makers.
+In implementation and adoption design of information
+systems, a traditional choice would be between a topdown and a bottom-up approach. However, Finland
+applied the middle-out design approach [21]. We have
+asked for advice and identified needs of citizens, health
+and social care providers, the IT industry and government, and created a common set of technical goals and
+underpinning standards that can sit between them. For
+follow-up purposes of the implementation, roll-out and
+adoption, we applied a set of indicators [42–44].
+In Finland, the Ministry of Social Affairs and Health is in
+a strategic role to steer the Kanta services, and carried
+out the first phase implementation activities since July
+2007. For implementation and adoption of the services,
+a new role of a national operational coordination function with appropriate legal mandate was established by
+law to the National Institute for Health and Welfare
+(THL) in January 2011. The coordinating function has
+close working relationships and cooperation with several national actors as well as health and social care
+service providers, pharmacies and system suppliers. The
+
+4.12.2018
+
+coordinating function works closely with Kela Kanta
+services – that run the integrated services – in development teams, groups and steering boards for operative decision making to construct infrastructure, develop services and carry out joint efforts to support
+citizens, service subscribers and system suppliers. Implementation and adoption support has included help
+desks, educative and guiding videos, written guidelines
+and presentations, newsletters, websites, national conferences twice a year, other seminars and meetings for
+focus subject matters, and especially, dedicated regional personnel in university hospital districts for regional
+support. The coordinating function has also granted
+state subsidies to provide partial funding for breakthrough pilots.
+Finland’s current state of Kanta services’ adoption and
+implementation has not been possible without provision of adequate funding. Our challenges have been
+around the socio-technical and contextual domains not
+to forget communication and from time to time wide
+media coverage [40,41]. Basing on the Finnish experience, large scale national implementation and adoption
+of information systems has been complex, multidimensional and influenced by a variety of factors at
+individual and organizational levels in complex health
+and social care settings, indeed [3,21,25,31–33,35,36].
+We appreciate the published lessons learned in the
+literature.
+Major re-structuring of health and/or social services
+may not be possible without a pervasive information
+infrastructure [21]. The Kanta services are already a
+significant part of the social welfare and health care
+services in Finland. As a result of the reform in social
+welfare and health care services, it must be possible to
+share information between organisations, and the Kanta services enable it throughout the country. The reform also brings something new to the Kanta services.
+The most significant change is related to the citizens’
+freedom to choose their own social and health care
+centre. In the future, this choice can be made via My
+Kanta Pages.
+Adoption and implementation is not the same thing:
+just because an information system has been adopted,
+
+FinJeHeW 2018;10(4)
+
+390
+
+OTHER ARTICLES
+
+it does not necessarily mean it is being used (or used in
+the way it was intended). In Finland, large scale technology reports covering public and private care provider
+organisations have been published in health care regularly since 2003 [45–49] and in social care in 2002, 2014
+and 2017 [50–52]. In addition, personal user needs and
+experiences in regard to health or social care information systems have been subjects for investigations
+among citizens [53–56], physicians [57–63], dentists
+[64], nurses [65] and pharmacists [66] in Finland. These
+reports and their results have provided us with additional background information in planning, feedback in
+operating and issues for further development of the
+Kanta services.
+If implementation was defined as the process of planning, testing, adopting, and integrating information
+systems so that the technology becomes routinely used
+in the organization, we have completed the second
+phase of the implementation and adoption of the national Kanta services in Finland in 2017. The countries
+whose shared record systems are the most advanced
+have populations of around 5 million, though it is not
+known whether this figure is a critical ceiling or a coincidence [43].
+
+Acknowledgments
+Updated information about the national Kanta services
+are provided on web pages at Kela Kanta services
+(https://www.kanta.fi/en/). Additional information
+about health care and social welfare information management is provided on web pages at the THL
+(https://thl.fi/en/web/information-management-insocial-welfare-and-health-care).
+
+Conflict of interest statement
+The author has worked at the National Institute for
+Health and Welfare (THL) since August 2010 and was
+the director of operational management of the national
+coordinating function at the THL in 2011–2017.
+
+4.12.2018
+
+References
+[1] Lapointe L, Mignerat M, Vedel I. The IT productivity
+paradox in health: a stakeholder’s perspective. Int J
+Med Inform 2011;80:102–115. https://doi.org/10.
+1016/j.ijmedinf.2010.11.004
+[2] Sheikh A, Cornford T, Barber N, Avery A, Takian A,
+Lichtner V, et al. Implementation and adoption of nationwide electronic health records in secondary care in
+England: final qualitative results from prospective national evaluation in “early adopter” hospitals. BMJ
+2011;343:d6054. https://doi.org/10.1136/bmj.d6054
+[3] Gagnon M-P, Desmartis M, Labrecque M, Car J,
+Pagliari C, Pluye P, et al. Systematic review of factors
+influencing the adoption of information and communication technologies by healthcare professionals. J Med
+Syst 2012;36:241–277. https://doi.org/10.1007/s10916010-9473-4
+[4] Mistry H. Systematic review of studies of the costeffectiveness of telemedicine and telecare: changes in
+the economic evidence over twenty years. J Telemed
+Telecare 2012;18(1):1–6. https://doi.org/10.1258/jtt.
+2011.110505
+[5] Bassi J, Lau F. Measuring value for money: a scoping
+review on economic evaluation of health information
+systems. J Am Med Inform Assoc 2013;20:792–801.
+https://doi.org/10.1136/amiajnl-2012-001422
+[6] Cresswell KM, Bates DW, Sheikh A. Ten key considerations for the successful implementation and adoption of large-scale health information technology. J Am
+Med Inform Assoc 2013;20:e9–e13. https://doi.org/
+10.1136/amiajnl-2013-001684
+[7] Collum TH, Menachemi N, Sen B. Does electronic
+health record use improve hospital financial performance? Evidence from panel data. Health Care Manage
+Rev 2016;41(3):267–274. https://doi.org/10.1097/HMR.
+0000000000000068
+[8] Yusof MM, Papazafeiropoulou A, Paul RJ, Stergioulas
+LK. Investigating evaluation frameworks for health information systems. Int J Med Inform 2008;77:377–385.
+https://doi.org/10.1016/j.ijmedinf.2007.08.004
+
+FinJeHeW 2018;10(4)
+
+391
+
+OTHER ARTICLES
+
+[9] Sligo J, Gauld R, Roberts V, Villa L. A literature review
+for large-scale health information system project planning, implementation and evaluation. Int J Med Inform
+2017;97:86–97.
+https://doi.org/10.1016/j.ijmedinf.
+2016.09.007
+
+[18] Hersh WR, Totten AM, Eden KB, Devine B, Gorman
+P, Kassakian SZ, et al. Outcomes from health information exchange: systemati review and future research
+needs.
+JMIR
+Med
+Inform
+2015;3(4):e39.
+https://doi.org/10.2196/medinform.5215
+
+[10] Karsh B-T, Weinger MB, Abbott PA, Wears RL.
+Health information technology: fallacies and sober
+realities. J Am Med Inform Assoc 2010;17:617–623.
+https://doi.org/10.1136/jamia.2010.005637
+
+[19] Rahurkar S, Vest JR, Menachemi N. Despite the
+spread of health information exchange, there is little
+evidence of its impact on cost, use, and quality of care.
+Health Aff 2015;34(3):477–483. https://doi.org/
+10.1377/hlthaff.2014.0729
+
+[11] Adler-Milstein J, Ronchi E, Cohen GR, Winn LA, Jha
+AK. Benchmarking health IT among OECD countries:
+better data for better policy. J Am Med Inform Assoc
+2014;21:111–116.
+https://doi.org/10.1136/amiajnl2013-001710
+[12] Nguyen L, Bellucci E, Nguyen LT. Electronic health
+records implementation: an evaluation of information
+system impact and contingency factors. Int J Med Inform
+2014;83:779–796.
+https://doi.org/10.1016/
+j.ijmedinf.2014.06.011
+[13] Heart T, Ben-Assuli O, Shabtai I. A review of PHR,
+EMR and HER integration: a more personalized
+healthcare and public health policy. Health Policy Technol
+2017;6:20–25.
+https://doi.org/10.1016/j.hlpt.
+2016.08.002
+[14] Holroyd-Leduc JM, Lorenzetti D, Straus SE, Sykes L,
+Quan H. The impact of the electronic medical record on
+structure, process, and outcomes within primary care: a
+systematic review of the evidence. J Am Med Inform
+Assoc
+2011;18:732–737.
+https://doi.org/10.1136/
+amiajnl-2010-000019
+[15] Fontaine P, Ross SE, Zink T, Schilling LM. Systematic
+review of health information exchange in primary care
+practices. J Am Board Fam Med 2010;23:655–670.
+https://doi.org/10.3122/jabfm.2010.05.090192
+[16] Hincapie A, Warholak T. The impact of health information exchange on health outcomes. Applied Clin
+Inform 2011;2:499–507. https://doi.org/10.4338/ACI2011-05-R-0027
+[17] Rudin RS, Motala A, Golzweig CL, Shekelle PG. Usage and effect of health information exchange: a systematic review. Ann Intern Med 2014;161(11):803–811.
+https://doi.org/10.7326/M14-0877
+
+4.12.2018
+
+[20] Devine EB, Totten AM, Gorman P, Eden KB,
+Kassakian S, Woods S, et al. Health information exchange use (1990–2015): a systematic review. eGEMs
+2017;5(1):1–22. https://doi.org/10.5334/egems.249
+[21] Coeira E. Building a national health IT system from
+the middle out. J Am Med Inform Assoc
+2009;16(3):271–273.
+https://doi.org/10.1197/jamia.
+M3183
+[22] Kreps D, Richardson H. IS success and failure: the
+problem of scale. Political Q 2007;78:439–446.
+https://doi.org/10.1111/j.1467-923X.2007.00871
+[23] Robertson A, Cresswell K, Takian A, Petrakaki D,
+Crowe S, Cornford T, et al. Implementation and adoption of nationwide electronic health records in secondary care in England: qualitative analysis of interim results from a prospective national evaluation. BMJ
+2010;341:c4564. https://doi.org/10.1136/bmj.c4564
+[24] Sauer C, Willcocks L. Unreasonable expectations:
+NHS IT, Greek choruses and the games institutions play
+around mega-programmes. J Inform Technol
+2007;22:195–201.
+https://doi.org/10.1057/palgrave.
+jit.2000108
+[25] Cresswell K, Sheikh A. The NHS Care Record Service
+(NHS CRS): recommendations from the literature on
+successful implementation and adoption. Inform Prim
+Care
+2009;17:153–164.
+https://doi.org/10.14236/
+jhi.v1713.730
+[26] Southon G, Sauer C, Dampney K. Lessons from a
+failed information systems initiative: issues for complex
+organisations. Int J Med Inform 1999;55:33–46.
+https://doi.org/10.1016/S1386-5056(99)00018-0
+
+FinJeHeW 2018;10(4)
+
+392
+
+OTHER ARTICLES
+
+[27] Bonacina S, Marceglia S, Pinciroli F. Barriers against
+adoption of electronic health record in Italy. J
+Healthcare
+Engineering
+2011;2(4):509–526.
+https://doi.org/10.1260/2040-2295.2.4.509
+
+[36] Shiell A, Hawe P, Gold L. Complex interventions or
+complex systems? Implications for health economic
+evaluation. BMJ 2008;336:1281–1283. https://doi.org/
+10.1136/bmj.39569.510521.AD
+
+[28] Oates BJ, Wainwright DW, Edwards HM. Endless
+bad projects or evidence-based practice? In: Dwivedi YK
+et al. (Eds.). TDIT 2013, IFIP AICT 402 2013;619–624.
+https://doi.org/10.1007/978-3-642-38862-0_43
+
+[37] Doolan DF, Bates DW, James BC. The use of computers for clinical care: a case series of advanced US
+sites. J Am Med Inform Assoc 2003;10(1):94–107.
+https://doi.org/10.1197/jamia.M1127
+
+[29] Boonstra A, Broekhuis M. Barriers to the acceptance of electronic medical records by physicians
+from systematic review to taxonomy and interventions.
+BMC Health Serv Res 2010;10:231. https://doi.org/
+10.1186/1472-6963-10-231
+
+[38] Tsiknakis M, Kouroubali M. Organizational factors
+affecting successful adoption of innovative eHealth
+services: a case study employing the FITT framework.
+Int J Med Inform 2009;78(1):39–52. https://doi.org/
+10.1016/j.inmedinf.2008.07.001
+
+[30] Panhuis van WG, Paul P, Emerson C, Grefenstette J,
+Wilder R, Herbsts AJ, et al. A systematic review of barriers to data sharing in public health. BMC Public Health
+2014;14:1144. https://doi.org/10.1186/1471-2458-141144
+
+[39] Buntin Beeuwkens M, Burke MF, Hoaglin MC, Blumenthal D. The benefits of health information technology: a review of the recent literature shows predominantly positive results. Health Aff 2011;30(3):464–471.
+https://doi.org/10.1377/hlthaff.2011.0178
+
+[31] Greenhalgh T, Stramer K, Bratan T, Byrne E, Mohammad Y, Russell J. Introduction of shared electronic
+records: multi-site case study using diffusion of innovation theory. BMJ 2008;337:a1786. https://doi.org/
+10.1136/bmj.a1786
+
+[40] Ingebrigtsen T, Georgiou A, Clay-Williams R, Magrabi F, Hordern A, Prgomet M, et al. The impact of
+clinical leadership on health information technology
+adoption: systematic review. Int J Med Inform
+2014;83:393–405. https://doi.org/10.1016/j.ijmedinf.
+2014.02.005
+
+[32] Greenhalgh T, Morris L, Wyatt JC, Thomas G, Gunning K. Introducing a nationally shared electronic patient record: case study comparison of Scotland, England, Wales and Northern Ireland. Int J Med Inform
+2013;82:e125–e138. https://doi.org/10.1016/j.ijmedinf.
+2013.01.002
+[33] Boonstra A, Versluis A, Vos JFJ. Implementing electronic health records in hospitals: a systematic literature review. BMC Health Serv Res 2014;14:370.
+https://doi.org/10.1186/1472-6963-14-370
+[34] Aanestad M, Jensen Blegind T. Building nation-wide
+information infrastructures in healthcare through modular implementation strategies. J Strat Inform Sys
+2011;20:161–176. https://doi.org/10.1016/j.jsis.2011.
+03.006
+[35] Plsek PE, Greenhalgh T. The challenge of complexity
+in
+health
+care.
+BMJ
+2001;323:625.
+https://doi.org/10.1136/bmj.323.7313.625
+
+4.12.2018
+
+[41] Regan EA, Wang J. Realizing the value of EHR systems: critical success factors. Transactions of the International Conference on Health Information Technology
+Advancement. Michigan: West Michigan University,
+Center for Health Information Technology Advancement;
+2015.
+p.
+20–36.
+Available
+from:
+http://scholarworks.wmich.edu/ichita_transactions/57
+[42] Pagliari C, Donnan P, Morrison J, Ricketts I, Gregor
+P, Sullivan F. Adoption and perception of electronic
+clinical communications in Scotland. Inform Prim Care
+2005;13:97-104. https://doi.org/10.14236/jhi.v13i2.586
+[43] Greenhalgh T, Stramer K, Bratan T, Byrne E, Russell
+J, Potts HWW. Adoption and non-adoption of a shared
+electronic summary record in England: a mixed-method
+case study. BMJ 2010;340:c3111. https://doi.org/
+10.1136/bmj.c3111
+[44] Aller M-B, Vargas I, Coderch J, Calero S, Cots F,
+Abizanda M, et al. Development and testing of indica-
+
+FinJeHeW 2018;10(4)
+
+393
+
+OTHER ARTICLES
+
+tors to measure coordination of clinical information and
+management across levels of care. BMC Health Serv Res
+2015;15:323.
+https://doi.org/10.1186/s12913-0150968-z
+[45] Hämäläinen P, Reponen J, Winblad I. eHealth of
+Finland: check point 2006. Report 1/2007. Helsinki:
+Stakes;
+2007.
+http://urn.fi/URN:NBN:fife201204193638
+[46] Hämäläinen P, Reponen J, Winblad I. eHealth of
+Finland: check point 2008. Report 1/2009. Helsinki:
+National Institute for Health and Welfare, 2009.
+http://urn.fi/URN:NBN:fi-fe201205085004
+[47] Hämäläinen P, Reponen J, Winblad I, Kärki J, Laaksonen M, Hyppönen H, et al. eHealth and eWelfare of
+Finland: check point 2011. Report 5/2013. Helsinki:
+National Institute for Health and Welfare; 2013.
+http://urn.fi/URN:ISBN:978-952-245-835-3
+[48] Hyppönen H, Hämäläinen P, Reponen J (Eds.). eHealth and e-Welfare of Finland: check point 2015.
+Report 18/2015. Helsinki: National Institute for Health
+and Welfare; 2015. http://urn.fi/URN:ISBN:978-952302-563-9
+[49] Reponen J, Kangas M, Hämäläinen P, Keränen N,
+Haverinen J. Use of information and communications
+technology in Finnish health care in 2017: current situation and trends. Report 5/2018. Helsinki: National Institute for Health and Welfare; 2018. [In Finnish with abstract in English] https://urn.fi/URN:ISBN:978-952-343108-9
+[50] Hartikainen K, Kuusisto-Niemi S, Lehtonen E. Sosiaali- ja terveydenhuollon tietojärjestelmäkartoitus
+2001. Osaavien keskusten verkoston julkaisuja 1/2002.
+Helsinki: Stakes; 2002. [In Finnish]
+[51] Kärki J, Ryhänen M. Report 20/2015. Use of information and communications technology in social services in 2014. Helsinki: National Institute for Health and
+Welfare; 2015. [In Finnish with abstract in English]
+https://urn.fi/URN:ISBN:978-952-302-593-6
+[52] Kuusisto-Niemi S, Ryhänen M, Hyppönen H. Use of
+information and communication technology in social
+welfare services in 2017. Report 1/2018. Helsinki: National Institute for Health and Welfare; 2018. [In Finnish
+
+4.12.2018
+
+with abstract in English] https://urn.fi/URN:ISBN:978952-343-044-0
+[53] Hyppönen H, Hyry J, Valta K, Ahlgren S. Electronic
+services in the social welfare and health care sector:
+citizens’ experiences and development needs. Report
+33/2014. Helsinki: National Institute for Health and
+Welfare; 2014. [In Finnish with abstract in English]
+https://urn.fi/URN:ISBN:978-952-302-410-6
+[54] Hyppönen H, Pentala-Nikunen O, Aalto A-M. Electronic services in the social welfare and health care
+sector 2017: citizens’ experiences and needs. Report
+3/2018. Helsinki: National Institute for Health and Welfare; 2018. [In Finnish with abstract in English]
+https://urn.fi/URN:ISBN:978-952-343-103-4
+[55] Lämsä E, Timonen J, Mäntyselkä P, Ahonen R.
+Pharmacy customers’ experiences with the national
+online service for viewing electronic prescriptions in
+Finland. Int J Med Inform 2017;97:221–8.
+https://doi.org/10.1016/j.ijmedinf.2016.10.014
+[56] Lämsä E, Timonen J, Ahonen R. Pharmacy customers’ experiences with electronic prescriptions: crosssectional survey on nationwide implementation in Finland. J Med Internet Res 2018;23:20:e68.
+https://doi.org/10.2196/jmir.9367
+[57] Viitanen J, Hyppönen H, Lääveri T, Vänskä J, Reponen J, Winblad I. National questionnaire study on clinical ICT systems proofs: physicians suffer from poor
+usability. Int J Med Inform 2011;80:708–725.
+https://doi.org/10.1016/j.ijmedinf.2011.06.010
+[58] Viitanen J, Nieminen M, Hyppönen H, Lääveri T.
+Finnish physicians’ experiences with computer supported patient information exchange and communication in
+clinical work. Int J Electron Healthcare 2011;6:153–173.
+https://doi.org/10.1504/IJEH.2011.044347
+[59] Martikainen S, Viitanen J, Korpela M, Lääveri T.
+Physicians’ experiences of participation in healthcare IT
+development in Finland: willing but not able. Int J Med
+Inform 2012;81:98–113. https://doi.org/10.1016/j.
+ijmedinf.2011.08.014
+[60] Hyppönen H, Reponen J, Lääveri T, Kaipio J. User
+experiences with different regional health information
+exchange systems in Finland. Int J Med Inform
+
+FinJeHeW 2018;10(4)
+
+394
+
+OTHER ARTICLES
+
+2014;83:1–18. https://doi.org/10.1016/j.ijmedinf.2013.
+10.002
+[61] Kaipio J, Lääveri T, Hyppönen H, Vainiomäki S, Reponen J, Kushniruk A, et al. Usability problems do not
+heal by themselves: national survey on physicians’ experiences with EHRs in Finland. Int J Med Inform
+2017;97:266–281. https://doi.org/10.1016/j.ijmedinf.
+2016.10.010
+[62] Kivekäs E, Enlund H, Borycki E, Saranto K. General
+practitioners’ attitudes towards electronic prescribing
+and the use of the national prescription centre. J Eval
+Clin Pract 2016;22:816–25. https://doi.org/10.1111/
+jep.12548
+[63] Kauppinen H, Ahonen R, Mäntyselkä P, Timonen J.
+Medication safety and the usability of electronic prescribing as perceived by physicians: a semi-structured
+interview among primary health care physicians in Finland. J Eval Clin Pract 2017;23:1187–1194.
+https://doi.org/10.1111/jep.12759
+
+4.12.2018
+
+[64] Savola A, Lahti S, Salo S, Huumonen S. Electronic
+oral health record systems in Finland: the user experiences and development needs. Suom Hammaslääkäril
+(Journal of the Finnish Dental Association)
+2017;24(13):38–45. (Article in Finnish with an English
+summary)
+[65] Hyppönen H, Lääveri T, Hahtela N, Suutarla A,
+Sillanpää K, Kinnunen U-M, et al. Smart systems for
+capable users? Nurses’ experiences on patient information systems 2017. FinJeHeW 2018;10(1):30–59.
+https://doi.org/10.23996/fjhw.65363
+[66] Kauppinen H, Ahonen R, Timonen J. The impact of
+electronic prescriptions on medication safety in Finnish
+community pharmacies: a survey of pharmacists. Int J
+Med Inform 2017;100:56–62. https://doi.org/10.1016/
+j.ijmedinf.2017.01.014
+
+FinJeHeW 2018;10(4)
+
+395
+
+
