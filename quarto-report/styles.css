@@ -57,28 +57,30 @@ blockquote {
 
 /* カスタムクラス：事実 */
 .fact {
-  background-color: #f0f8ff;
+  background-color: #e6f3ff;
   padding: 15px;
-  border-left: 4px solid #003d82;
+  border-left: 4px solid #0056b3;
   margin: 20px 0;
   border-radius: 4px;
+  color: #333;
 }
 
 .fact strong:first-child {
-  color: #003d82;
+  color: #0056b3;
 }
 
 /* カスタムクラス：分析 */
 .analysis {
-  background-color: #fff8e5;
+  background-color: #fff9e6;
   padding: 15px;
-  border-left: 4px solid #8b6914;
+  border-left: 4px solid #d4a017;
   margin: 20px 0;
   border-radius: 4px;
+  color: #333;
 }
 
 .analysis strong:first-child {
-  color: #8b6914;
+  color: #b8860b;
 }
 
 /* Calloutボックス */
@@ -351,13 +353,15 @@ blockquote {
 /* ダークモード対応 */
 @media (prefers-color-scheme: dark) {
   .fact {
-    background-color: #1a3a4a;
+    background-color: #1e3a5f;
     border-left-color: #4da6ff;
+    color: #e0e0e0;
   }
   
   .analysis {
-    background-color: #4a3a1a;
+    background-color: #3d3a1a;
     border-left-color: #ffb366;
+    color: #e0e0e0;
   }
   
   table th {
