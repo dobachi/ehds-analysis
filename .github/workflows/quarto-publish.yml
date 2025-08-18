@@ -1,0 +1,71 @@
+name: Quarto Publish
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'quarto-report/**'
+      - '.github/workflows/quarto-publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 'latest'
+          
+      - name: Install Japanese fonts for PDF
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
+          sudo apt-get install -y texlive-lang-japanese texlive-luatex texlive-fonts-recommended
+          sudo apt-get install -y texlive-xetex texlive-lang-cjk
+          
+      - name: Render Quarto Project
+        run: |
+          cd quarto-report
+          quarto render --to html
+          quarto render --to pdf
+          quarto render --to docx
+          
+      - name: Copy PDF and DOCX to output
+        run: |
+          cp quarto-report/*.pdf quarto-report/_site/ || true
+          cp quarto-report/*.docx quarto-report/_site/ || true
+          
+      - name: Create download links in index
+        run: |
+          if [ -f "quarto-report/_site/index.html" ]; then
+            # PDF・DOCXダウンロードリンクを追加
+            sed -i 's|</nav>|<div class="download-section" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;"><h4 style="margin-top: 0;">📥 レポートをダウンロード</h4><div style="display: flex; gap: 10px; flex-wrap: wrap;"><a href="EHDS（欧州健康データ空間）包括的分析レポート.pdf" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg> PDF形式</a><a href="EHDS（欧州健康データ空間）包括的分析レポート.docx" class="btn btn-info" style="display: inline-flex; align-items: center; gap: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg> Word形式</a></div></div></nav>|' quarto-report/_site/index.html
+          fi
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quarto-report/_site
+          
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

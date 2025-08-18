@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: ../build
+  output-dir: _site
 
 book:
   title: "EHDS（欧州健康データ空間）包括的分析レポート"
@@ -135,6 +135,12 @@ format:
 
 execute:
   enabled: false
+
+# GitHub Pages設定
+website:
+  site-url: "https://dobachi.github.io/ehds-analysis"
+  repo-url: "https://github.com/dobachi/ehds-analysis"
+  repo-actions: [source, issue]
 
 language:
   ui:
