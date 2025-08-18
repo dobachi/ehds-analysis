@@ -1,6 +1,6 @@
 # EHDS Analysis - 欧州健康データ空間分析レポート
 
-📖 **[オンラインで読む](https://dobachi.github.io/ehds-analysis)** | 📥 [PDF版](https://dobachi.github.io/ehds-analysis/EHDS（欧州健康データ空間）包括的分析レポート.pdf) | 📄 [Word版](https://dobachi.github.io/ehds-analysis/EHDS（欧州健康データ空間）包括的分析レポート.docx)
+**[オンラインで読む](https://dobachi.github.io/ehds-analysis)** | [PDF版](https://dobachi.github.io/ehds-analysis/EHDS（欧州健康データ空間）包括的分析レポート.pdf) | [Word版](https://dobachi.github.io/ehds-analysis/EHDS（欧州健康データ空間）包括的分析レポート.docx)
 
 ## 概要
 
