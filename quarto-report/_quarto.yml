@@ -6,7 +6,7 @@ book:
   title: "EHDS（欧州健康データ空間）包括的分析レポート"
   subtitle: "日本の医療データスペース構築への戦略的示唆"
   author: 
-    - name: "医療データ戦略研究チーム"
+    - name: "dobachi"
   date: "2025-08-13"
   
   chapters:
