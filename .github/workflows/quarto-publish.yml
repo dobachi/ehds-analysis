@@ -33,38 +33,21 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       
-      - name: Cache LaTeX packages
-        uses: actions/cache@v4
-        id: cache-texlive
-        with:
-          path: |
-            /usr/share/texlive
-            /usr/share/texmf
-            /var/lib/texmf
-          key: ${{ runner.os }}-texlive-${{ hashFiles('.github/workflows/quarto-publish.yml') }}
-          restore-keys: |
-            ${{ runner.os }}-texlive-
-          
-      - name: Install Japanese fonts and LaTeX packages for PDF
-        if: steps.cache-texlive.outputs.cache-hit != 'true'
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
-          sudo apt-get install -y texlive-lang-japanese texlive-luatex texlive-fonts-recommended
-          sudo apt-get install -y texlive-xetex texlive-lang-cjk
-          sudo apt-get install -y texlive-fonts-extra texlive-latex-extra
-          
-      - name: Render Quarto Project
+      # PDF生成は別途ローカルで行い、生成済みファイルをリポジトリに含める
+      - name: Render Quarto Project (HTML only)
         run: |
           cd quarto-report
           quarto render --to html
-          quarto render --to pdf
-          quarto render --to docx
           
-      - name: Copy PDF and DOCX to output
+      - name: Copy existing PDF and DOCX to output
         run: |
-          cp quarto-report/*.pdf quarto-report/_site/ || true
-          cp quarto-report/*.docx quarto-report/_site/ || true
+          # リポジトリに既に存在するPDF/DOCXファイルをコピー
+          if [ -f "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.pdf" ]; then
+            cp "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.pdf" quarto-report/_site/
+          fi
+          if [ -f "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.docx" ]; then
+            cp "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.docx" quarto-report/_site/
+          fi
           
       - name: Create download links in index
         run: |
