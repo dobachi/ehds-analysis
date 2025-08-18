@@ -32,8 +32,21 @@ jobs:
         
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+      
+      - name: Cache LaTeX packages
+        uses: actions/cache@v4
+        id: cache-texlive
+        with:
+          path: |
+            /usr/share/texlive
+            /usr/share/texmf
+            /var/lib/texmf
+          key: ${{ runner.os }}-texlive-${{ hashFiles('.github/workflows/quarto-publish.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-texlive-
           
       - name: Install Japanese fonts and LaTeX packages for PDF
+        if: steps.cache-texlive.outputs.cache-hit != 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-noto-cjk fonts-noto-cjk-extra
