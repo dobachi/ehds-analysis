@@ -57,28 +57,28 @@ blockquote {
 
 /* カスタムクラス：事実 */
 .fact {
-  background-color: #e8f4f8;
+  background-color: #f0f8ff;
   padding: 15px;
-  border-left: 4px solid #0066cc;
+  border-left: 4px solid #003d82;
   margin: 20px 0;
   border-radius: 4px;
 }
 
 .fact strong:first-child {
-  color: #0066cc;
+  color: #003d82;
 }
 
 /* カスタムクラス：分析 */
 .analysis {
-  background-color: #e5f6ff;
+  background-color: #fff8e5;
   padding: 15px;
-  border-left: 4px solid #0072c3;
+  border-left: 4px solid #8b6914;
   margin: 20px 0;
   border-radius: 4px;
 }
 
 .analysis strong:first-child {
-  color: #0072c3;
+  color: #8b6914;
 }
 
 /* Calloutボックス */
@@ -89,23 +89,23 @@ blockquote {
 }
 
 .callout-note {
-  background-color: #e3f2fd;
-  border-left: 4px solid #2196f3;
+  background-color: #f0f7ff;
+  border-left: 4px solid #1565c0;
 }
 
 .callout-warning {
-  background-color: #f0f7ff;
-  border-left: 4px solid #0043ce;
+  background-color: #fff3e0;
+  border-left: 4px solid #e65100;
 }
 
 .callout-important {
-  background-color: #d0e2ff;
-  border-left: 4px solid #0043ce;
+  background-color: #ffebee;
+  border-left: 4px solid #c62828;
 }
 
 .callout-tip {
-  background-color: #e5f6ff;
-  border-left: 4px solid #0072c3;
+  background-color: #e8f5e9;
+  border-left: 4px solid #2e7d32;
 }
 
 /* 図表のキャプション */
@@ -130,19 +130,68 @@ blockquote {
   padding-left: 1.5em;
 }
 
-/* レスポンシブデザイン */
+/* レスポンシブデザイン - スマホ対応強化 */
 @media (max-width: 768px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+    color: #1a1a1a;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #2a2a2a;
+  }
+  
+  h3 {
+    font-size: 1.3em;
+    color: #3a3a3a;
   }
   
   table {
-    font-size: 0.85em;
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
   
   .fact, .analysis {
+    padding: 12px;
+    margin: 15px 0;
+    border-left-width: 5px;
+  }
+  
+  .callout {
+    padding: 12px;
+    margin: 15px 0;
+  }
+  
+  pre {
+    font-size: 0.85em;
     padding: 10px;
-    margin: 10px 0;
+  }
+  
+  /* サイドバーをモバイルで非表示 */
+  .sidebar {
+    display: none;
+  }
+  
+  /* メインコンテンツの幅を最大化 */
+  main {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Mermaid図をスマホで見やすく */
+  .mermaid {
+    overflow-x: auto;
+    padding: 10px;
+    margin: 15px -10px;
   }
 }
 
