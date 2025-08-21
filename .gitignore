@@ -34,3 +34,10 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+instructions/ai_instruction_kits/
+.openhands/
+.claude/
+
+# Git worktree directories
+.gitworktrees/
+gitworktrees/

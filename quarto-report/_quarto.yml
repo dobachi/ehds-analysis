@@ -23,7 +23,6 @@ book:
       chapters:
         - 05-japan-recommendations.qmd
         - 06-technical-guidelines.qmd
-        - 07-business-case.qmd
     - 08-conclusion.qmd
     - references.qmd
   
