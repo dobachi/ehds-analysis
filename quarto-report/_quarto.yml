@@ -8,6 +8,7 @@ book:
   author: 
     - name: "dobachi"
   date: "2025-08-13"
+  downloads: []
   
   chapters:
     - index.qmd
@@ -49,6 +50,7 @@ format:
     code-tools: true
     highlight-style: github
     css: styles.css
+    downloads: []
     mermaid:
       theme: default
     include-in-header:
