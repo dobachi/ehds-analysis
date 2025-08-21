@@ -90,46 +90,6 @@ format:
           }
           </style>
   
-  pdf:
-    documentclass: ltjsbook
-    classoption:
-      - a4paper
-      - 11pt
-    papersize: a4
-    margin-left: 25mm
-    margin-right: 25mm
-    margin-top: 25mm
-    margin-bottom: 25mm
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    colorlinks: true
-    mainfont: "Noto Serif CJK JP"
-    sansfont: "Noto Sans CJK JP"
-    monofont: "Noto Sans Mono CJK JP"
-    pdf-engine: lualatex
-    keep-tex: false
-    include-in-header:
-      - text: |
-          \usepackage{float}
-          \usepackage{graphicx}
-          \usepackage{adjustbox}
-          % 図の最大幅を本文幅に制限
-          \makeatletter
-          \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-          \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-          \makeatother
-          \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-          % Mermaid図や表を自動的にページ幅に収める
-          \usepackage{fvextra}
-          \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
-  
-  docx:
-    toc: true
-    toc-depth: 3
-    number-sections: true
-    highlight-style: github
-    reference-doc: template.docx
 
 execute:
   enabled: false

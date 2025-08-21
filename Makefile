@@ -15,25 +15,21 @@ GREEN := \033[0;32m
 YELLOW := \033[1;33m
 NC := \033[0m # No Color
 
-.PHONY: all clean build html pdf docx watch preview serve check-deps help install-quarto mermaid
+.PHONY: all clean build html watch preview serve check-deps help install-quarto mermaid
 
 # デフォルトターゲット
-all: check-deps mermaid html pdf docx
-	@echo "$(GREEN)✓ すべての形式のビルドが完了しました$(NC)"
+all: check-deps mermaid html
+	@echo "$(GREEN)✓ HTMLビルドが完了しました$(NC)"
 	@echo "  - HTML: $(BUILD_DIR)/index.html"
-	@echo "  - PDF:  $(BUILD_DIR)/EHDS（欧州健康データ空間）包括的分析レポート.pdf"
-	@echo "  - DOCX: $(BUILD_DIR)/EHDS（欧州健康データ空間）包括的分析レポート.docx"
 
 # ヘルプ表示
 help:
 	@echo "$(GREEN)EHDS Research Project - Quarto Makefile Commands$(NC)"
 	@echo ""
 	@echo "$(YELLOW)基本コマンド:$(NC)"
-	@echo "  make all        - すべての形式でビルド（HTML/PDF/DOCX）"
+	@echo "  make all        - HTMLでビルド"
 	@echo "  make build      - HTMLレポートをビルド"
 	@echo "  make html       - HTMLフォーマットでビルド"
-	@echo "  make pdf        - PDFフォーマットでビルド"
-	@echo "  make docx       - Word文書でビルド"
 	@echo "  make clean      - ビルド成果物をクリーン"
 	@echo ""
 	@echo "$(YELLOW)開発コマンド:$(NC)"
@@ -103,23 +99,7 @@ $(REPORT_DIR)/images/%.png: $(REPORT_DIR)/images/%.mmd
 	@cd $(REPORT_DIR)/images && mmdc -i $$(basename $<) -o $$(basename $@)
 	@echo "$(GREEN)✓ 変換完了: $@$(NC)"
 
-# PDFビルド（画像ファイルの依存関係を追加）
-pdf: check-deps $(MERMAID_IMAGES)
-	@echo "$(YELLOW)PDFレポートを生成中...$(NC)"
-	@cd $(REPORT_DIR) && $(QUARTO) render --to pdf
-	@echo "$(GREEN)✓ PDF生成完了: $(BUILD_DIR)/EHDS-Report.pdf$(NC)"
 
-# Word文書ビルド（画像ファイルの依存関係を追加）
-docx: check-deps $(MERMAID_IMAGES)
-	@echo "$(YELLOW)Word文書を生成中...$(NC)"
-	@cd $(REPORT_DIR) && $(QUARTO) render --to docx
-	@echo "$(GREEN)✓ Word文書生成完了: $(BUILD_DIR)/EHDS-Report.docx$(NC)"
-
-# 全フォーマットビルド
-all-formats: check-deps mermaid
-	@echo "$(YELLOW)全フォーマットでビルド中...$(NC)"
-	@cd $(REPORT_DIR) && $(QUARTO) render --to all
-	@echo "$(GREEN)✓ 全フォーマットのビルド完了$(NC)"
 
 # ファイル監視と自動ビルド
 watch: check-deps mermaid
@@ -163,7 +143,7 @@ stats: build
 	@echo "最終更新: $$(date '+%Y年%m月%d日 %H:%M:%S')"
 
 # 最終版レポート生成
-final: clean mermaid all-formats
+final: clean mermaid html
 	@echo "$(YELLOW)最終版レポートを生成中...$(NC)"
 	@mkdir -p $(FINAL_DIR)/$(TIMESTAMP)
 	@cp -r $(BUILD_DIR)/* $(FINAL_DIR)/$(TIMESTAMP)/
