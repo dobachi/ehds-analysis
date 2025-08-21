@@ -92,6 +92,21 @@ format:
           }
           </style>
   
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+    citecolor: blue
+    pdf-engine: lualatex
+    keep-tex: false
+    mainfont: "Noto Sans CJK JP"
+    sansfont: "Noto Sans CJK JP"
+    monofont: "Noto Sans Mono CJK JP"
 
 execute:
   enabled: false
