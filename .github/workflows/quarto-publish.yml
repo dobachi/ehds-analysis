@@ -33,28 +33,11 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
       
-      # PDF生成は別途ローカルで行い、生成済みファイルをリポジトリに含める
+      # HTMLのみのビルド
       - name: Render Quarto Project (HTML only)
         run: |
           cd quarto-report
           quarto render --to html
-          
-      - name: Copy existing PDF and DOCX to output
-        run: |
-          # リポジトリに既に存在するPDF/DOCXファイルをコピー
-          if [ -f "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.pdf" ]; then
-            cp "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.pdf" quarto-report/_site/
-          fi
-          if [ -f "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.docx" ]; then
-            cp "quarto-report/EHDS（欧州健康データ空間）包括的分析レポート.docx" quarto-report/_site/
-          fi
-          
-      - name: Create download links in index
-        run: |
-          if [ -f "quarto-report/_site/index.html" ]; then
-            # PDF・DOCXダウンロードリンクを追加（SVGアイコンのみ使用）
-            sed -i 's|</nav>|<div class="download-section" style="margin: 20px 0; padding: 15px; background: #f8f9fa; border-radius: 8px; border: 1px solid #dee2e6;"><h4 style="margin-top: 0;">レポートをダウンロード</h4><div style="display: flex; gap: 10px; flex-wrap: wrap;"><a href="EHDS（欧州健康データ空間）包括的分析レポート.pdf" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg> PDF形式</a><a href="EHDS（欧州健康データ空間）包括的分析レポート.docx" class="btn btn-info" style="display: inline-flex; align-items: center; gap: 5px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg> Word形式</a></div></div></nav>|' quarto-report/_site/index.html
-          fi
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
